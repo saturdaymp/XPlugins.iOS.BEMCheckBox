@@ -1,2 +1,2 @@
-# XPlugins.iOS.BEMCheckBox
-Use the BEMCheckBox in Xamarin.
+# iOSBindings.BEMCheckBox
+Use the BEMCheckBox in Xamarin applications.
