@@ -2,7 +2,7 @@
 This plugin lets you use the excellent [BEMCheckBox](https://github.com/Boris-Em/BEMCheckBox) in your Xamarin iOS applications.  Below outlines how to get started with BEMCheckBox in Xamarin and some common uses.  For a list of all the features of the please see the [BEMCheckBox GitHub page](https://github.com/Boris-Em/BEMCheckBox).
 
 # Installing
-You can find the latest stable version of the BEMCheckBox XPlugin is avaliable via [NuGet](https://www.nuget.org/packages/SaturdayMP.XPlugins.iOS.BEMCheckBox/).  You can find alpha builds from [MyGet](https://www.myget.org/feed/saturdaymp/package/nuget/SaturdayMP.XPlugins.iOS.BEMCheckBox).  If you have any trouble installing please let me know by opening a [issue](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/issues).
+You can find the latest stable version of the BEMCheckBox XPlugin is avaliable via [NuGet](https://www.nuget.org/packages/SaturdayMP.XPlugins.iOS.BEMCheckBox/).  You can find alpha builds from [MyGet](https://www.myget.org/feed/saturdaymp/package/nuget/SaturdayMP.XPlugins.iOS.BEMCheckBox).  If you have any trouble installing please let me know by opening an [issue](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/issues).
 
 # Quickstart
 To create a BEMCheckBox call the constructor with a frame as shown below.
@@ -40,7 +40,7 @@ checkbox.On = true;
 checkbox.On = false;
 ```
 
-Finlly to handle checkbox clicks setup an event:
+Finally to handle checkbox clicks setup an event:
 
 ```C#
 private void CheckBoxClickedEvent(object sender, EventArgs eventArgs)
