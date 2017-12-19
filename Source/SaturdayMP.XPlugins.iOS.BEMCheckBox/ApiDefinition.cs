@@ -125,6 +125,10 @@ namespace SaturdayMP.XPlugins.iOS
         // @optional -(void)animationDidStopForCheckBox:(BEMCheckBox * _Nonnull)checkBox;
         [Export("animationDidStopForCheckBox:"), EventArgs("AfterCheckboxChanged")]
         void AnimationDidStopForCheckBox(BEMCheckBox sender);
+
+        // @optional -(void)didTapCheckBox:(BEMCheckBox*)checkBox;
+        [Export("didTapCheckBox:"), EventArgs("BeforeCheckboxChanged")]
+        void DidTapCheckBox(BEMCheckBox sender);
     }
 }
 
