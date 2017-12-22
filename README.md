@@ -73,3 +73,16 @@ The version of this BEMCheckBox plugin will match the BEMCheckBox major and mino
 
 # Acknowledgements
 Thanks to [Boris Emorine](https://github.com/Boris-Em) for creating the BEMCheckBox.
+
+# Further Reading
+## Xamarin
+[Walkthrough: Binding an iOS Objective-C Library](https://developer.xamarin.com/guides/ios/advanced_topics/binding_objective-c/walkthrough/)
+
+## Noise from the Basement
+Today I Learned How to Create a Xamarin iOS Binding for Objective-C Libraries:
+* [Part 1](https://nftb.saturdaymp.com/today-i-learned-how-to-create-a-xamarin-ios-binding-for-objective-c-libraries-part-1-compiling-the-objective-c-library/)
+* [Part 2](https://nftb.saturdaymp.com/today-i-learned-how-to-create-a-xamarin-ios-binding-for-objective-c-libraries-part-2-combining-libraries/)
+* [Part 3](https://nftb.saturdaymp.com/today-i-learned-how-to-create-a-xamarin-ios-binding-for-objective-c-libraries-part-3-using-sharpie-to-create-binding-interface/)
+* [Part 4](https://nftb.saturdaymp.com/today-i-learned-how-to-create-a-xamarin-ios-binding-for-objective-c-libraries-part-4-the-actual-binding/)
+
+[Today I Learned How to Automate Objective-c Builds in TeamCity](https://nftb.saturdaymp.com/today-i-learned-how-to-automate-objective-c-builds-in-teamcity/)
