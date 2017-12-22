@@ -70,6 +70,7 @@ The version of this BEMCheckBox plugin will match the BEMCheckBox major and mino
 | ---:        | ---:    |
 | [1.4.1](https://github.com/Boris-Em/BEMCheckBox/releases/tag/1.4.1) | [1.4.1](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.1) |
 | [1.4.1](https://github.com/Boris-Em/BEMCheckBox/releases/tag/1.4.1) | [1.4.2](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.2) |
+| [1.4.1](https://github.com/Boris-Em/BEMCheckBox/releases/tag/1.4.1) | [1.4.3](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.3) |
 
 # Acknowledgements
 Thanks to [Boris Emorine](https://github.com/Boris-Em) for creating the BEMCheckBox.
