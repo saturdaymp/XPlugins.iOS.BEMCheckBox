@@ -5,7 +5,7 @@ branches:
     increment: Minor
     prevent-increment-of-merged-branch-version: false
     track-merge-target: true
-  releases?[/-]:
+  release:
     mode: ContinuousDelivery
     tag: 'beta'
     increment: Patch
