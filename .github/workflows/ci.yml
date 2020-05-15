@@ -6,11 +6,12 @@ jobs:
     name: Build Job
     runs-on: macos-latest
     defaults:
-      working-directory: Source
+      run:
+        working-directory: Source
 
     steps:
       - uses: actions/checkout@v2
-      
+
       - name: NuGet
         run: dotnet restore
 
