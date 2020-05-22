@@ -18,7 +18,7 @@ jobs:
 
       - name: Install GitVersion
         uses: gittools/actions/gitversion/setup@v0.9.2
-         with:
+        with:
           versionSpec: '5.2.x'
 
       # Use the id to reference the GitVersion values in future steps.
