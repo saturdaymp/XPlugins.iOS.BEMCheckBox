@@ -1,4 +1,7 @@
 branches:
+  feature:
+    mode: ContinuousDeployment
+    tag: feature-{BranchName}
   master:
     mode: ContinuousDeployment
     tag: 'alpha'
