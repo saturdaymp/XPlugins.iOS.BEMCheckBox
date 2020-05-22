@@ -34,3 +34,11 @@ jobs:
 
       - name: Build
         run: msbuild /t:Rebuild /p:Configuration=Debug /p:Platform=iPhoneSimulator
+
+      - name: Create NuGet Package
+        run: nuget pack SaturdayMP.XPlugins.iOS.BEMCheckBox.nuspec -properties Configuration=Release -Version ${{ steps.gitversion.outputs.nuGetVersionV2 }}
+
+      - name: Publish to MyGet
+        run: |
+          nuget setApiKey ${{ secret.MYGET_API_KEY }}
+          nuget push SaturdayMP.XPlugins.iOS.BEMCheckBox.${{ steps.gitversion.outputs.nuGetVersionV2 }}.nupkg -Source https://www.myget.org/F/saturdaymp/api/v3/index.json
