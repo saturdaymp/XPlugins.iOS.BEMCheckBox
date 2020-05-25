@@ -19,7 +19,7 @@ jobs:
       - name: Install GitVersion
         uses: gittools/actions/gitversion/setup@v0.9.2
         with:
-          versionSpec: '5.2.x'
+          versionSpec: '5.2.4'
 
       # Use the id to reference the GitVersion values in future steps.
       - name: GitVersion
@@ -32,8 +32,13 @@ jobs:
       - name: NuGet
         run: nuget restore
 
-      - name: Build
+      # Build debug so it builds the example program to make sure there are no
+      # compile issues.
+      - name: Debug Build
         run: msbuild /t:Rebuild /p:Configuration=Debug /p:Platform=iPhoneSimulator
+
+      - name: Release Build
+        run: msbuild /t:Rebuild /p:Configuration=Release /p:Platform=iPhone
 
       - name: Create NuGet Package
         run: nuget pack SaturdayMP.XPlugins.iOS.BEMCheckBox.nuspec -properties Configuration=Release -Version ${{ steps.gitversion.outputs.nuGetVersionV2 }}
