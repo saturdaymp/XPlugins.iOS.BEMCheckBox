@@ -61,9 +61,6 @@ jobs:
           echo "CommitsSinceVersionSourcePadded: ${{ steps.gitversion.outputs.commitsSinceVersionSourcePadded }}"
           echo "CommitDate: ${{ steps.gitversion.outputs.commitDate }}"
 
-      - name: Update Assembly Info
-      - run: 
-
       - name: NuGet
         run: nuget restore
 
