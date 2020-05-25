@@ -38,7 +38,7 @@ jobs:
         run: msbuild /t:Rebuild /p:Configuration=Debug /p:Platform=iPhoneSimulator
 
       - name: Release Build
-        run: msbuild /t:Rebuild /p:Configuration=Release /p:Platform=iPhone
+        run: msbuild /t:Rebuild /p:Configuration=Release /p:Platform="Any CPU"
 
       - name: Create NuGet Package
         run: nuget pack SaturdayMP.XPlugins.iOS.BEMCheckBox.nuspec -properties Configuration=Release -Version ${{ steps.gitversion.outputs.nuGetVersionV2 }}
