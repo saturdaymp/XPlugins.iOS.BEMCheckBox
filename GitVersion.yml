@@ -1,7 +1,7 @@
 branches:
   feature:
     mode: ContinuousDeployment
-    tag: feature-{BranchName}
+    tag: wip-{BranchName}
   master:
     mode: ContinuousDeployment
     tag: 'alpha'
