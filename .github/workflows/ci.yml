@@ -19,15 +19,12 @@ jobs:
       - name: Install GitVersion
         uses: gittools/actions/gitversion/setup@v0.9.3
         with:
-          versionSpec: '5.2.4'
+          versionSpec: '5.3.4'
 
-      # Use the id to reference the GitVersion values in future steps.
-      - name: GitVersion
+      - name: Generate Version Info using GitVersion
         id: gitversion
         uses: gittools/actions/gitversion/execute@v0.9.3
-        with:
-          updateAssemblyInfo: true
-          updateAssemblyInfoFilename: '**/AssemblyInfo.cs'
+          with: updateAssemblyInfo: true
       
       - name: Display GitVersion values
         run: |
@@ -65,9 +62,7 @@ jobs:
       - name: NuGet
         run: nuget restore
 
-      # Build debug so it builds the example program to make sure there are no
-      # compile issues.
-      - name: Debug Build
+      - name: Debug Build for Example Program
         run: msbuild /t:Rebuild /p:Configuration=Debug /p:Platform=iPhoneSimulator
 
       - name: Release Build
