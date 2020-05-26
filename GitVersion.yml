@@ -1,18 +1,77 @@
+assembly-versioning-scheme: MajorMinorPatch
+assembly-file-versioning-scheme: MajorMinorPatch
+mode: ContinuousDelivery
+tag-prefix: '[vV]'
+continuous-delivery-fallback-tag: ci
+major-version-bump-message: '\+semver:\s?(breaking|major)'
+minor-version-bump-message: '\+semver:\s?(feature|minor)'
+patch-version-bump-message: '\+semver:\s?(fix|patch)'
+no-bump-message: '\+semver:\s?(none|skip)'
+legacy-semver-padding: 4
+build-metadata-padding: 4
+commits-since-version-source-padding: 4
+tag-pre-release-weight: 60000
+commit-message-incrementing: Enabled
 branches:
-  feature:
-    mode: ContinuousDeployment
-    tag: wip-{BranchName}
   master:
     mode: ContinuousDeployment
-    tag: 'alpha'
+    tag: alpha
     increment: Minor
     prevent-increment-of-merged-branch-version: false
     track-merge-target: true
+    regex: ^master$
+    source-branches: []
+    tracks-release-branches: true
+    is-release-branch: false
+    is-mainline: false
+    pre-release-weight: 0
   release:
     mode: ContinuousDelivery
-    tag: 'beta'
-    increment: Patch
+    tag: beta
+    increment: None
     prevent-increment-of-merged-branch-version: true
     track-merge-target: false
+    regex: ^releases?[/-]
+    source-branches:
+    - master
+    - release
+    tracks-release-branches: false
+    is-release-branch: true
+    is-mainline: false
+    pre-release-weight: 30000
+  feature:
+    mode: ContinuousDelivery
+    tag: useBranchName
+    increment: Inherit
+    prevent-increment-of-merged-branch-version: false
+    track-merge-target: false
+    regex: ^features?[/-]
+    source-branches:
+    - master
+    - release
+    - feature
+    tracks-release-branches: false
+    is-release-branch: false
+    is-mainline: false
+    pre-release-weight: 30000
+  pull-request:
+    mode: ContinuousDelivery
+    tag: PullRequest
+    increment: Inherit
+    prevent-increment-of-merged-branch-version: false
+    tag-number-pattern: '[/-](?<number>\d+)'
+    track-merge-target: false
+    regex: ^(pull|pull\-requests|pr)[/-]
+    source-branches:
+    - master
+    - release
+    - feature
+    tracks-release-branches: false
+    is-release-branch: false
+    is-mainline: false
+    pre-release-weight: 30000
 ignore:
   sha: []
+commit-date-format: yyyy-MM-dd
+merge-message-formats: {}
+update-build-number: true
