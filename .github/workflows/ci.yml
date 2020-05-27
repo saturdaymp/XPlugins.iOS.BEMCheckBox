@@ -26,6 +26,7 @@ jobs:
         uses: gittools/actions/gitversion/execute@v0.9.3
         with: 
           updateAssemblyInfo: true
+          assemblyInfoFileName: 'Source\SaturdayMP.XPlugins.iOS.BEMCheckBox\Properties\AssemblyInfo.cs'
       
       - name: Display GitVersion values
         run: |
