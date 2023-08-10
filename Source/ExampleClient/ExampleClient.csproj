@@ -138,6 +138,8 @@
     <ProjectReference Include="..\SaturdayMP.XPlugins.iOS.BEMCheckBox\SaturdayMP.XPlugins.iOS.BEMCheckBox.csproj">
       <Project>{a67a5942-bbbb-4d76-995c-b65b9777ebc7}</Project>
       <Name>SaturdayMP.XPlugins.iOS.BEMCheckBox</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
