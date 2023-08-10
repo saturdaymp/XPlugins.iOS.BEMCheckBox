@@ -38,7 +38,7 @@ namespace ExampleClient
             //
             // https://github.com/Boris-Em/BEMCheckBox
             checkbox.DidTap += DidTapEvent;
-            checkbox.AnimationDidStop += AnimationDidStopEvent;
+            checkbox.AnimationDidStopFor += AnimationDidStopEvent;
 
 
             // Add the controls to the view.

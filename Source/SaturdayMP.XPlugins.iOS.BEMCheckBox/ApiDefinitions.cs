@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using CoreAnimation;
 using CoreGraphics;
 using Foundation;
@@ -40,7 +39,7 @@ namespace SaturdayMP.XPlugins.iOS
 	}
 
 	// @interface BEMCheckBox : UIControl <CAAnimationDelegate>
-	[BaseType (typeof(UIControl), Name = "_TtC11BEMCheckBox11BEMCheckBox")]
+	[BaseType (typeof(UIControl), Name = "_TtC11BEMCheckBox11BEMCheckBox", Delegates = new string[] { "WeakDelegate" }, Events = new Type[] { typeof(BEMCheckBoxDelegate) })]
 	interface BEMCheckBox : ICAAnimationDelegate
 	{
 		[Wrap ("WeakDelegate")]
@@ -145,11 +144,11 @@ namespace SaturdayMP.XPlugins.iOS
 	interface BEMCheckBoxDelegate
 	{
 		// @optional -(void)didTap:(BEMCheckBox * _Nonnull)checkBox;
-		[Export ("didTap:")]
+		[Export ("didTap:"), EventArgs("BeforeCheckboxChanged")]
 		void DidTap (BEMCheckBox checkBox);
 
 		// @optional -(void)animationDidStopFor:(BEMCheckBox * _Nonnull)checkBox;
-		[Export ("animationDidStopFor:")]
+		[Export ("animationDidStopFor:"), EventArgs("AfterCheckboxChanged"), DefaultValueFromArgument("checkbox")]
 		void AnimationDidStopFor (BEMCheckBox checkBox);
 	}
 
