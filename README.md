@@ -1,4 +1,4 @@
-[![GitHub release (with filter)](https://img.shields.io/github/v/release/saturdaymp/XPlugins.iOS.BEMCheckBox?sort=semver&label=Latest%20Release)](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/latest)]
+[![GitHub release (with filter)](https://img.shields.io/github/v/release/saturdaymp/XPlugins.iOS.BEMCheckBox?sort=semver&label=Latest%20Release)](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/latest)
 [![Nuget](https://img.shields.io/nuget/dt/SaturdayMP.XPlugins.iOS.BEMCheckBox?logo=nuget&label=Downloads)](https://www.nuget.org/packages/SaturdayMP.XPlugins.iOS.BEMCheckBox)]
 [![CI](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/actions/workflows/ci.yml/badge.svg)](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/actions/workflows/ci.yml)
 [![Release Notes](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/actions/workflows/release-notes.yml/badge.svg)](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/actions/workflows/release-notes.yml)
