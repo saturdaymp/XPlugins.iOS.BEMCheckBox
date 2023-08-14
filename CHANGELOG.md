@@ -1,3 +1,30 @@
+## v2.0.0 (Aug, 14, 2023)
+
+
+As part of this release we had [8 issues](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/3?closed=1) closed.
+
+
+
+__Dependencies__
+
+- [__#12__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/issues/12) Upgrade BEMCheckBox Native Framework from 1.4.1 to 2.0.0
+- [__#16__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/16) Update Xamarin.Forms for the Example Client from 4 to 5.0.0.2578
+- [__#18__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/18) Upgrade BEMCheckBox Native Framework from 1.4.1 to 2.0.0
+- [__#19__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/19) Update BEMCheckBox binding from 1.4 to 2.0.0
+
+__DevOps__
+
+- [__#17__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/17) Fix issues with CI
+- [__#21__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/21) Add release notes workflow
+
+__Enhancement__
+
+- [__#11__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/issues/11) Migrate Automated Build to GitHub Actions
+
+__Refactoring__
+
+- [__#20__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/20) Move native reference files to the Native References folder
+
 ## 1.4.3 (Dec, 22, 2017)
 
 
