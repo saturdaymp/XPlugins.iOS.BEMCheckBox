@@ -47,7 +47,7 @@
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="BEMCheckBox.framework">
+    <NativeReference Include="Native References/BEMCheckBox.framework">
       <Kind>Framework</Kind>
       <Frameworks>Foundation UIKit</Frameworks>
       <LinkerFlags>
