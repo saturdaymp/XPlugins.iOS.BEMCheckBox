@@ -1,7 +1,7 @@
 ## v2.0.0 (Aug, 14, 2023)
 
 
-As part of this release we had [8 issues](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/3?closed=1) closed.
+As part of this release we had [9 issues](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/3?closed=1) closed.
 
 
 
@@ -16,6 +16,10 @@ __DevOps__
 
 - [__#17__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/17) Fix issues with CI
 - [__#21__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/21) Add release notes workflow
+
+__Documentation__
+
+- [__#22__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/22) Update BEMCheckBox references and add badges in the README
 
 __Enhancement__
 
