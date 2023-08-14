@@ -1,12 +1,12 @@
 ﻿using System;
-using SaturdayMP.XPlugins.iOS;
 using UIKit;
+using SaturdayMP.XPlugins.iOS;
 
-namespace BindingExample
+namespace ExampleClient
 {
-    public partial class MainViewController : UIViewController
+    public partial class ViewController : UIViewController
     {
-        public MainViewController() : base("MainViewController", null)
+        public ViewController (IntPtr handle) : base (handle)
         {
         }
 
@@ -37,8 +37,8 @@ namespace BindingExample
             // See BEMCheckBox for more details:
             //
             // https://github.com/Boris-Em/BEMCheckBox
-            checkbox.DidTapCheckBox += DidTapCheckBoxEvent;
-            checkbox.AnimationDidStopForCheckBox += AnimationDidStopForCheckBoxEvent;
+            checkbox.DidTap += DidTapEvent;
+            checkbox.AnimationDidStopFor += AnimationDidStopEvent;
 
 
             // Add the controls to the view.
@@ -49,14 +49,14 @@ namespace BindingExample
         // Fired before the checkbox animation completes but after the internal
         // checkbox settings are updated with the new check/unchecked status (i.e.
         // On property is updated).
-        private void DidTapCheckBoxEvent(object sender, EventArgs eventArgs)
+        private void DidTapEvent(object sender, EventArgs eventArgs)
         {
             Console.WriteLine("In BeforeCheckBoxClickedEvent which is DidTapCheckBox in BEMCheckBox.");
         }
 
         // Fired after the checkbox animation completes.  If there are no animations then
         // it won't be triggered.
-        private void AnimationDidStopForCheckBoxEvent(object sender, EventArgs eventArgs)
+        private void AnimationDidStopEvent(object sender, EventArgs eventArgs)
         {
             Console.WriteLine("In AfterCheckBoxClickedEvent which is AnimationDidStopForCheckBox in BEMCheckBox.");
         }
