@@ -5,7 +5,7 @@
     <version>$version$</version>
     <title>XPlugins.iOS.BEMCheckBox</title>
     <authors>Saturday Morning Productions</authors>
-    <license type="file">LICENSE</license>
+    <license type="file">license\LICENSE</license>
     <projectUrl>https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Use the excellent BEMCheckBox in Xamarin iOS applications.  BEMCheckBox allows you to create beautiful, highly customizable, animated checkboxs for iOS.</description>
