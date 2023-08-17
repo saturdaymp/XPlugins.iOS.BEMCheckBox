@@ -15,7 +15,7 @@
   </metadata>
   <files>
 	  <file src="SaturdayMP.XPlugins.iOS.BEMCheckBox\bin\Release\SaturdayMP.XPlugins.iOS.BEMCheckBox.dll" target="lib\Xamarin.iOS10" />
-    <file src="XPlugins.iOS.BEMCheckBox\Source\README.md" target="docs\" />
+    <file src="README.md" target="docs\" />
     <file src="LICENSE" target="license\" />
   </files>
 </package>
