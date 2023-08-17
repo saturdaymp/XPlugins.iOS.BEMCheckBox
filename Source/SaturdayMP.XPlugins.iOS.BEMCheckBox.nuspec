@@ -1,23 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-    <metadata>
-        <id>SaturdayMP.XPlugins.iOS.BEMCheckBox</id>
-        <version>$version$</version>
-        <title>XPlugins.iOS.BEMCheckBox</title>
-        <authors>SaturdayMP</authors>
-        <owners>SaturdayMP</owners>
-        <licenseUrl>https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/blob/master/LICENSE</licenseUrl>
-        <projectUrl>https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox</projectUrl>
-        <requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<summary>Use the excellent BEMCheckBox in Xamarin iOS applications.</summary>
-        <description>
-			Easily use the BEMCheckBox by Boris-Em in Xamarin iOS applications.  Just wraps the objective-c 
-			BEMCheckBox using the Xamarin native bindings.  For more details see the project page.  For all
-			BEMCheckBox features see the BEMCheckBox page at: https://github.com/Boris-Em/BEMCheckBox.</description>
-		<copyright>Copyright (c) 2017 Saturday Morning Productions Inc.</copyright>
+  <metadata>
+    <id>SaturdayMP.XPlugins.iOS.BEMCheckBox</id>
+    <version>$version$</version>
+    <title>XPlugins.iOS.BEMCheckBox</title>
+    <authors>Saturday Morning Productions</authors>
+    <license type="file">LICENSE.txt</license>
+    <projectUrl>https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Use the excellent BEMCheckBox in Xamarin iOS applications.  BEMCheckBox allows you to create beautiful, highly customizable, animated checkboxs for iOS.</description>
+    <readme>docs\README.md</readme>
+		<copyright>Copyright (c) 2023 Saturday Morning Productions Inc.</copyright>
 		<tags>xamarin ios xamrin-ios xamarin-ios-binding bemcheckbox checkbox</tags>
-    </metadata>
-    <files>
-		    <file src="SaturdayMP.XPlugins.iOS.BEMCheckBox\bin\Release\SaturdayMP.XPlugins.iOS.BEMCheckBox.dll" target="lib\Xamarin.iOS10" />
-    </files>
+  </metadata>
+  <files>
+	  <file src="SaturdayMP.XPlugins.iOS.BEMCheckBox\bin\Release\SaturdayMP.XPlugins.iOS.BEMCheckBox.dll" target="lib\Xamarin.iOS10" />
+    <file src="..\README.md" target="docs\" />
+    <file src="..\LICENSE.txt" target="" />
+  </files>
 </package>
