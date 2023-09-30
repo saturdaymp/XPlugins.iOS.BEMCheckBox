@@ -1,64 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectTypeGuids>{8FFB629D-F513-41CE-95D2-7ECE97B6EEEC};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{A67A5942-BBBB-4D76-995C-B65B9777EBC7}</ProjectGuid>
-    <TemplateGuid>{b6f3ff35-79b2-4f25-a2fc-60a7cf61013b}</TemplateGuid>
-    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0-ios</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
     <RootNamespace>SaturdayMP.XPlugins.iOS</RootNamespace>
-    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>SaturdayMP.XPlugins.iOS.BEMCheckBox</AssemblyName>
-    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
+
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>portable</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug</OutputPath>
-    <DefineConstants>DEBUG;</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <ProcessEnums>false</ProcessEnums>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>portable</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release</OutputPath>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-  </PropertyGroup>
-  <PropertyGroup>
-    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="Xamarin.iOS" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ObjcBindingApiDefinition Include="ApiDefinitions.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+    <ObjcBindingApiDefinition Include="ApiDefinitions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="Native References/BEMCheckBox.framework">
+    <NativeReference Include="Native References\BEMCheckBox.framework">
       <Kind>Framework</Kind>
-      <Frameworks>Foundation UIKit</Frameworks>
-      <LinkerFlags>
-      </LinkerFlags>
-      <WeakFrameworks>
-      </WeakFrameworks>
-      <ForceLoad>False</ForceLoad>
-      <NeedsGccExceptionHandling>False</NeedsGccExceptionHandling>
-      <IsCxx>False</IsCxx>
-      <SmartLink>True</SmartLink>
+      <SmartLink>False</SmartLink>
     </NativeReference>
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
 </Project>
