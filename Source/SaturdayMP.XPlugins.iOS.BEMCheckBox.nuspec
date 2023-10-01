@@ -11,10 +11,10 @@
     <description>Use the excellent BEMCheckBox in Xamarin iOS applications.  BEMCheckBox allows you to create beautiful, highly customizable, animated checkboxs for iOS.</description>
     <readme>docs\README.md</readme>
 		<copyright>Copyright (c) 2023 Saturday Morning Productions Inc.</copyright>
-		<tags>xamarin ios xamrin-ios xamarin-ios-binding bemcheckbox checkbox</tags>
+		<tags>net6.0 net6.0-ios ios ios-binding bemcheckbox checkbox saturdaymp</tags>
   </metadata>
   <files>
-	  <file src="SaturdayMP.XPlugins.iOS.BEMCheckBox\bin\Release\SaturdayMP.XPlugins.iOS.BEMCheckBox.dll" target="lib\Xamarin.iOS10" />
+	  <file src="SaturdayMP.XPlugins.iOS.BEMCheckBox\bin\Release\net6.0-ios\SaturdayMP.XPlugins.iOS.BEMCheckBox.dll" target="lib\net6.0-ios" />
     <file src="..\README.md" target="docs\" />
     <file src="..\LICENSE.txt" target="" />
   </files>
