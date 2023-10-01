@@ -107,23 +107,17 @@ namespace SaturdayMP.XPlugins.iOS
         [Export("initWithFrame:")]
         [DesignatedInitializer]
         BEMCheckBox Constructor(CGRect frame);
-
-        // REM
-        //// -(instancetype _Nullable)initWithCoder:(NSCoder * _Nonnull)coder __attribute__((objc_designated_initializer));
-        //[Export ("initWithCoder:")]
-        //[DesignatedInitializer]
-        //      BEMCheckBox Constructor (NSCoder coder);
-
+        
         // @property (nonatomic) CGRect frame;
-        [Export("frame", ArgumentSemantic.Assign)]
+        [Export("frame", ArgumentSemantic.Assign), Override]
         CGRect Frame { get; set; }
 
         // -(void)layoutSubviews;
-        [Export("layoutSubviews")]
+        [Export("layoutSubviews"), Override]
         void LayoutSubviews();
 
         // @property (readonly, nonatomic) CGSize intrinsicContentSize;
-        [Export("intrinsicContentSize")]
+        [Export("intrinsicContentSize"), Override]
         CGSize IntrinsicContentSize { get; }
 
         // -(void)setOn:(BOOL)on animated:(BOOL)animated;
@@ -131,7 +125,7 @@ namespace SaturdayMP.XPlugins.iOS
         void SetOn(bool on, bool animated);
 
         // -(BOOL)pointInside:(CGPoint)point withEvent:(UIEvent * _Nullable)event __attribute__((warn_unused_result("")));
-        [Export("pointInside:withEvent:")]
+        [Export("pointInside:withEvent:"), Override]
         bool PointInside(CGPoint point, [NullAllowed] UIEvent @event);
 
         // -(void)animationDidStop:(CAAnimation * _Nonnull)anim finished:(BOOL)flag;
