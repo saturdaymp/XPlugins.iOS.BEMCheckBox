@@ -34,13 +34,13 @@ jobs:
           updateAssemblyInfo: true
 
       - name: NuGet
-        run: nuget restore
+        run: dotnet restore
 
       - name: Debug Build for Example Program
-        run: msbuild /t:Rebuild /p:Configuration=Debug /p:Platform=iPhoneSimulator
+        run: dotnet build SaturdayMP.XPlugins.iOS.BEMCheckBox/SaturdayMP.XPlugins.iOS.BEMCheckBox.csproj -c Release -p iPhoneSimulator
 
       - name: Release Build
-        run: msbuild /t:Rebuild /p:Configuration=Release /p:Platform="Any CPU"
+        run: dotnet build SaturdayMP.XPlugins.iOS.BEMCheckBox/SaturdayMP.XPlugins.iOS.BEMCheckBox.csproj -c Release -p AnyCPU
 
       - name: Create NuGet Package
         run: nuget pack SaturdayMP.XPlugins.iOS.BEMCheckBox.nuspec -properties Configuration=Release -Version ${{ steps.gitversion.outputs.nuGetVersionV2 }}

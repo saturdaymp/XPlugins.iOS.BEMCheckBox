@@ -17,7 +17,9 @@
   <ItemGroup>
     <NativeReference Include="Native References\BEMCheckBox.framework">
       <Kind>Framework</Kind>
+      <Frameworks>Foundation UIKit</Frameworks>
       <SmartLink>False</SmartLink>
+      
     </NativeReference>
   </ItemGroup>
 </Project>
