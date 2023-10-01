@@ -22,7 +22,7 @@ jobs:
           dotnet-version: 6.0
 
       - name: Install iOS Workload
-        run: dotnet workload install Microsoft.NET.Workload.iOS
+        run: dotnet workload install ios
 
       - name: Install GitVersion
         uses: gittools/actions/gitversion/setup@v0.10.2
@@ -39,10 +39,10 @@ jobs:
         run: dotnet restore
 
       - name: Debug Build for Example Program
-        run: dotnet build SaturdayMP.XPlugins.iOS.BEMCheckBox/SaturdayMP.XPlugins.iOS.BEMCheckBox.csproj -c Release -p iPhoneSimulator
+        run: dotnet build -c Release -p iPhoneSimulator
 
       - name: Release Build
-        run: dotnet build SaturdayMP.XPlugins.iOS.BEMCheckBox/SaturdayMP.XPlugins.iOS.BEMCheckBox.csproj -c Release -p AnyCPU
+        run: dotnet build -c Release -p AnyCPU
 
       - name: Create NuGet Package
         run: nuget pack SaturdayMP.XPlugins.iOS.BEMCheckBox.nuspec -properties Configuration=Release -Version ${{ steps.gitversion.outputs.nuGetVersionV2 }}
