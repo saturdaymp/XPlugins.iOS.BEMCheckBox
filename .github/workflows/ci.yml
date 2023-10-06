@@ -39,19 +39,15 @@ jobs:
         run: dotnet restore
 
       # Smoke test to make sure the Example Client builds.  We don't do a release build
-      # of the Example Client because it takes a long time and we don't publicsh it.
+      # of the Example Client because it takes a long time and we don't publish it.
       - name: Debug Build of Solution to Smaoke test Example Client
         run: dotnet build -c Debug 
 
-      # Do release builds of the binding library for both the simulator and device.
-      - name: Release Build for Simulator
-        run: dotnet build SaturdayMP.XPlugins.iOS.BEMCheckBox/SaturdayMP.XPlugins.iOS.BEMCheckBox.csproj -c Release -p iPhoneSimulator
-
-      - name: Release Build for Device
+      - name: Release Build
         run: dotnet build SaturdayMP.XPlugins.iOS.BEMCheckBox/SaturdayMP.XPlugins.iOS.BEMCheckBox.csproj -c Release -p AnyCPU
 
       - name: Create NuGet Package
-        run: nuget pack SaturdayMP.XPlugins.iOS.BEMCheckBox.nuspec -properties Configuration=Release -Version ${{ steps.gitversion.outputs.nuGetVersionV2 }}
+        run: dotnet pack SaturdayMP.XPlugins.iOS.BEMCheckBox.nuspec -c Release
 
       - name: Publish to MyGet
         run: |

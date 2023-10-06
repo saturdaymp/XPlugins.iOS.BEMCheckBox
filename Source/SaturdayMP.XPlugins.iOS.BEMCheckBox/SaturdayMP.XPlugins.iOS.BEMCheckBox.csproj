@@ -5,8 +5,18 @@
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
     <RootNamespace>SaturdayMP.XPlugins.iOS</RootNamespace>
+    <Title>SaturdayMP.XPlugins.iOS.BEMCheckBox</Title>
+    <Authors>Saturday Morning Productions Inc.</Authors>
+    <Description>Use the excellent BEMCheckBox in Xamarin iOS applications.  BEMCheckBox allows you to create beautiful, highly customizable, animated checkboxs for iOS.</Description>
+    <Copyright>Copyright (c) 2023 Saturday Morning Productions Inc.</Copyright>
+    <PackageProjectUrl>https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox</RepositoryUrl>
+    <PackageTags>net6.0 net6.0-ios ios ios-binding bemcheckbox checkbox saturdaymp</PackageTags>
+    <Company>Saturday Morning Productions Inc.</Company>
+    <Product>XPlugins.iOS.BEMCheckBox</Product>
   </PropertyGroup>
-
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -19,7 +29,10 @@
       <Kind>Framework</Kind>
       <Frameworks>Foundation UIKit</Frameworks>
       <SmartLink>False</SmartLink>
-      
     </NativeReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\LICENSE.txt" Pack="true" PackagePath="" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 </Project>
