@@ -40,14 +40,11 @@ jobs:
 
       # Smoke test to make sure the Example Client builds.  We don't do a release build
       # of the Example Client because it takes a long time and we don't publish it.
-      - name: Debug Build of Solution to Smaoke test Example Client
+      - name: Debug Build of Solution to Smoke test Example Client
         run: dotnet build -c Debug 
 
-      - name: Release Build
-        run: dotnet build SaturdayMP.XPlugins.iOS.BEMCheckBox/SaturdayMP.XPlugins.iOS.BEMCheckBox.csproj -c Release -p AnyCPU
-
       - name: Create NuGet Package
-        run: dotnet pack SaturdayMP.XPlugins.iOS.BEMCheckBox.nuspec -c Release
+        run: dotnet pack SaturdayMP.XPlugins.iOS.BEMCheckBox/SaturdayMP.XPlugins.iOS.BEMCheckBox.csproj -c Release
 
       - name: Publish to MyGet
         run: |
