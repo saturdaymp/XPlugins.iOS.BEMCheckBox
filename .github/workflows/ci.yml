@@ -33,7 +33,7 @@ jobs:
         id: gitversion
         uses: gittools/actions/gitversion/execute@v0.10.2
         with: 
-          updateAssemblyInfo: true
+          additionalArguments: '/updateprojectfiles'
 
       - name: NuGet
         run: dotnet restore
