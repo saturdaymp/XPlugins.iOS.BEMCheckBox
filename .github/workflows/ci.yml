@@ -47,11 +47,9 @@ jobs:
         run: dotnet pack SaturdayMP.XPlugins.iOS.BEMCheckBox/SaturdayMP.XPlugins.iOS.BEMCheckBox.csproj -c Release
 
       - name: Publish to MyGet
-        run: |
-          nuget setApiKey ${{ secrets.MYGET_API_KEY }} -Source https://www.myget.org/F/saturdaymp/api/v3/index.json
-          nuget push SaturdayMP.XPlugins.iOS.BEMCheckBox.${{ steps.gitversion.outputs.nuGetVersionV2 }}.nupkg -Source https://www.myget.org/F/saturdaymp/api/v3/index.json
+        run: dotnet nuget push SaturdayMP.XPlugins.iOS.BEMCheckBox/bin/Release/net6.0-io/SaturdayMP.XPlugins.iOS.BEMCheckBox.${{ steps.gitversion.outputs.nuGetVersionV2 }}.nupkg -k ${{ secrets.MYGET_API_KEY }} -s https://www.myget.org/F/saturdaymp/api/v3/index.json
 
       # Only push tagged builds to NuGet.  These will be production or release candidates.
       - name: Upload to NuGet
         if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
-        run: dotnet nuget push  SaturdayMP.XPlugins.iOS.BEMCheckBox.${{ steps.gitversion.outputs.nuGetVersionV2 }}.nupkg -k ${{ secrets.NUGET_API_KEY }} --skip-duplicate --no-symbols -s https://api.nuget.org/v3/index.json
+        run: dotnet nuget push SaturdayMP.XPlugins.iOS.BEMCheckBox/bin/Release/net6.0-io/SaturdayMP.XPlugins.iOS.BEMCheckBox.${{ steps.gitversion.outputs.nuGetVersionV2 }}.nupkg -k ${{ secrets.NUGET_API_KEY }} --skip-duplicate --no-symbols -s https://api.nuget.org/v3/index.json
