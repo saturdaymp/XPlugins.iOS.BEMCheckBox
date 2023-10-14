@@ -80,3 +80,4 @@ For a full list of issues fixed see the [1.4.2 Milestone](https://github.com/sat
 
 
 Wraps [BEMCheckBox](https://github.com/Boris-Em/BEMCheckBox) version [1.4.1](https://github.com/Boris-Em/BEMCheckBox/releases/tag/1.4.1).
+x/releases/tag/1.4.1).
