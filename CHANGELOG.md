@@ -1,4 +1,23 @@
-## v2.0.0 (Aug, 14, 2023)
+## v3.0.0 (Oct, 14, 2023)
+
+
+As part of this release we had [1 issue](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/4?closed=1) closed.
+
+Upgraded to MAUI .NET 6.  If you need Xamarin support please try the v2 release.
+
+__Enhancement__
+
+- [__#15__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/issues/15) net6.0-ios migration
+
+## v2.0.0 (Aug, 17, 2023)
+
+
+The underlying BEMCheckBox [v2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/v2.0.0) has some breaking changes that affect this Xamarin wrapper:
+
+- Minimum iOS version was increased from 8.4 to 12.
+- Events renamed
+  -  `DidTapCheckBox` renamed to `DidTap`
+  - `AnimationDidStopForCheckBox` to `AnimationDidStopFor`
 
 
 As part of this release we had [10 issues](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/3?closed=1) closed.
