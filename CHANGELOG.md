@@ -1,3 +1,14 @@
+## v3.0.1 (Oct, 14, 2023)
+
+
+As part of this release we had [1 issue](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/5?closed=1) closed.
+
+
+
+__DevOps__
+
+- [__#26__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/26) Update minimum iOS version in NuGet Package to 12 instead of 16
+
 ## v3.0.0 (Oct, 14, 2023)
 
 
