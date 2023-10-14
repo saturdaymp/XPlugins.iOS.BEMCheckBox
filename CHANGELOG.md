@@ -3,7 +3,7 @@
 
 As part of this release we had [2 issues](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/4?closed=1) closed.
 
-Upgraded to MAUI .NET 6.  If you need Xamarin support please try the v2 release.
+Upgraded to .NET 6 iOS (net6.0-ios).  If you need Xamarin support please try the v2 release.
 
 __DevOps__
 
