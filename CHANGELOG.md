@@ -3,7 +3,7 @@
 
 As part of this release we had [1 issue](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/5?closed=1) closed.
 
-
+Fixed issues with v3.0.0 release that had the minimum iOS version of the Nuget package set to 16.1 instead of 12.0.
 
 __DevOps__
 
@@ -80,3 +80,4 @@ For a full list of issues fixed see the [1.4.2 Milestone](https://github.com/sat
 
 
 Wraps [BEMCheckBox](https://github.com/Boris-Em/BEMCheckBox) version [1.4.1](https://github.com/Boris-Em/BEMCheckBox/releases/tag/1.4.1).
+x/releases/tag/1.4.1).
