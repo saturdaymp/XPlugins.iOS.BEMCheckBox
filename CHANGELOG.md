@@ -1,13 +1,17 @@
 ## v3.0.1 (Oct, 14, 2023)
 
 
-As part of this release we had [1 issue](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/5?closed=1) closed.
+As part of this release we had [2 issues](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/5?closed=1) closed.
 
 Fixed issues with v3.0.0 release that had the minimum iOS version of the Nuget package set to 16.1 instead of 12.0.
 
 __DevOps__
 
 - [__#26__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/26) Update minimum iOS version in NuGet Package to 12 instead of 16
+
+__Documentation__
+
+- [__#27__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/27) Update readme with minimum ios version
 
 ## v3.0.0 (Oct, 14, 2023)
 
@@ -80,4 +84,3 @@ For a full list of issues fixed see the [1.4.2 Milestone](https://github.com/sat
 
 
 Wraps [BEMCheckBox](https://github.com/Boris-Em/BEMCheckBox) version [1.4.1](https://github.com/Boris-Em/BEMCheckBox/releases/tag/1.4.1).
-x/releases/tag/1.4.1).
