@@ -1,9 +1,13 @@
 ## v3.0.0 (Oct, 14, 2023)
 
 
-As part of this release we had [1 issue](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/4?closed=1) closed.
+As part of this release we had [2 issues](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/4?closed=1) closed.
 
 Upgraded to MAUI .NET 6.  If you need Xamarin support please try the v2 release.
+
+__DevOps__
+
+- [__#25__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/25) Prepare for v3.0.0 release
 
 __Enhancement__
 
