@@ -1,5 +1,11 @@
 name: CI
-on: [push]
+
+on:
+  push:
+    branches: [ master, release/* ]
+    tags: [ v* ]
+  pull_request:
+    branches: [ master, release/* ]
 
 jobs:
   build:
