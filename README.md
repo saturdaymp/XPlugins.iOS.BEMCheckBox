@@ -4,7 +4,7 @@
 [![Release Notes](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/actions/workflows/release-notes.yml/badge.svg)](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/actions/workflows/release-notes.yml)
 
 # XPlugins.iOS.BEMCheckBox
-This plugin lets you use the [BEMCheckBox](https://github.com/saturdaymp/BEMCheckBox) in your Xamarin iOS applications.  Below outlines how to get started with BEMCheckBox in Xamarin and some common uses.  For a list of all the features of the please see the BEMCheckBox GitHub [page](https://github.com/saturdaymp/BEMCheckBox).
+This plugin lets you use the [BEMCheckBox](https://github.com/saturdaymp/BEMCheckBox) in your .NET iOS applications.  This README outlines how to get started with BEMCheckBox in .NET and some common uses.  For a list of all the features of the please see the BEMCheckBox GitHub [page](https://github.com/saturdaymp/BEMCheckBox).
 
 # Installing
 XPlugins is a NuGet Package and can be installed using the dotnet command line:
@@ -88,7 +88,7 @@ Please let me know if this XPlugin does not work work with a future version of .
 | [1.4.3](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.3) | [1.4.1](https://github.com/saturdaymp/BEMCheckBox/releases/tag/1.4.1) | Xamarin.iOS/xamarinios10
 | [2.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/2.0.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) | Xamarin.iOS/xamarinios10
 | [3.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.0.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) | .NET/net6.0-ios16.1
-| [3.0.1](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.0.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) | .NET/net6.0-ios12.0
+| [3.0.1](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.0.1) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) | .NET/net6.0-ios12.0
 
 # Acknowledgements
 Thanks to [Boris Emorine](https://github.com/Boris-Em) for creating the BEMCheckBox.
