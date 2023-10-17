@@ -4,7 +4,7 @@
 [![Release Notes](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/actions/workflows/release-notes.yml/badge.svg)](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/actions/workflows/release-notes.yml)
 
 # XPlugins.iOS.BEMCheckBox
-This plugin lets you use the [BEMCheckBox](https://github.com/saturdaymp/BEMCheckBox) in your Xamarin iOS applications.  Below outlines how to get started with BEMCheckBox in Xamarin and some common uses.  For a list of all the features of the please see the BEMCheckBox GitHub [page](https://github.com/saturdaymp/BEMCheckBox).
+This plugin lets you use the [BEMCheckBox](https://github.com/saturdaymp/BEMCheckBox) in your .NET iOS applications.  This README outlines how to get started with BEMCheckBox in .NET and some common uses.  For a list of all the features of the please see the BEMCheckBox GitHub [page](https://github.com/saturdaymp/BEMCheckBox).
 
 # Installing
 XPlugins is a NuGet Package and can be installed using the dotnet command line:
@@ -75,16 +75,20 @@ For a full list of settings such as animation type, colours, etc see the [BEMChe
 You can also play with the BEMCheckBox settings in the [Example Client](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/tree/master/Source/ExampleClient).  To run the Example Client open the source in Visual Studio 2017 and set the Example Client as the startup project.  If the Example Client does not run please [let me know](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/issues).
 
 # Version Mapping
-The version of this BEMCheckBox plugin will match the BEMCheckBox major and minor version number but the patch number might differ.  When possible the patch number will match but if there is an issue with the wrapper that needs to be fixed then the patch number might be higher then the BEMCheckBox version.
+Below is the mapping of the BEMCheckBox version used in the XPlugin wrapper version along with the Xamain/.NET version.  
 
-| XPlugin | BEMCheckBox | Frameworks/Versions |
+The .NET version lists the minimum .NET and iOS versions required.  For example, `net6.0-ios12`` means the XPlugin will work with .NET 6.0 and iOS 12 or higher (e.g. it will work with .NET 7 and iOS 16).
+
+Please let me know if this XPlugin does not work work with a future version of .NET or iOS by opening an [issue](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/issues).
+
+| XPlugin | BEMCheckBox | Frameworks/Minimum Version |
 | ---:        | ---:    | ---:       |
 | [1.4.1](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.1) | [1.4.1](https://github.com/saturdaymp/BEMCheckBox/releases/tag/1.4.1) | Xamarin.iOS/xamarinios10
 | [1.4.2](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.2) | [1.4.1](https://github.com/saturdaymp/BEMCheckBox/releases/tag/1.4.1) | Xamarin.iOS/xamarinios10 | 
 | [1.4.3](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.3) | [1.4.1](https://github.com/saturdaymp/BEMCheckBox/releases/tag/1.4.1) | Xamarin.iOS/xamarinios10
 | [2.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/2.0.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) | Xamarin.iOS/xamarinios10
-| [3.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.0.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) | net6.0-ios16.1
-| [3.0.1](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.0.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) | net6.0-ios12
+| [3.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.0.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) | .NET/net6.0-ios16.1
+| [3.0.1](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.0.1) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) | .NET/net6.0-ios12.0
 
 # Acknowledgements
 Thanks to [Boris Emorine](https://github.com/Boris-Em) for creating the BEMCheckBox.
