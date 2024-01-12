@@ -1,9 +1,13 @@
 ## v3.1.0 (Oct, 17, 2023)
 
 
-As part of this release we had [1 issue](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/6?closed=1) closed.
+As part of this release we had [2 issues](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/6?closed=1) closed.
 
 
+
+__DevOps__
+
+- [__#30__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/30) Add SaturdayMP sponsorship button
 
 __Documentation__
 
