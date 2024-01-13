@@ -1,7 +1,7 @@
 ## v3.1.0 (Oct, 17, 2023)
 
 
-As part of this release we had [2 issues](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/6?closed=1) closed.
+As part of this release we had [3 issues](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/6?closed=1) closed.
 
 
 
@@ -12,6 +12,7 @@ __DevOps__
 __Documentation__
 
 - [__#29__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/29) Update XPlugin version mapping to README
+- [__#31__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/31) Added sponsor shield to README
 
 ## v3.0.1 (Oct, 14, 2023)
 
