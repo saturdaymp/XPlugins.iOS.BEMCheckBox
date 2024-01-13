@@ -2,7 +2,7 @@
 [![Nuget](https://img.shields.io/nuget/dt/SaturdayMP.XPlugins.iOS.BEMCheckBox?logo=nuget&label=Downloads&labelColor=3C444C&logoColor=959DA5)](https://www.nuget.org/packages/SaturdayMP.XPlugins.iOS.BEMCheckBox)
 [![CI](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/actions/workflows/ci.yml/badge.svg)](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/actions/workflows/ci.yml)
 [![Release Notes](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/actions/workflows/release-notes.yml/badge.svg)](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/actions/workflows/release-notes.yml)
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/saturdaymp?logo=githubsponsors&labelColor=3C444C)](https://github.com/sponsors/saturdaymp)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/saturdaymp?label=Sponsors&logo=githubsponsors&labelColor=3C444C)](https://github.com/sponsors/saturdaymp)
 
 # XPlugins.iOS.BEMCheckBox
 This plugin lets you use the [BEMCheckBox](https://github.com/saturdaymp/BEMCheckBox) in your .NET iOS applications.  This README outlines how to get started with BEMCheckBox in .NET and some common uses.  For a list of all the features of the please see the BEMCheckBox GitHub [page](https://github.com/saturdaymp/BEMCheckBox).
