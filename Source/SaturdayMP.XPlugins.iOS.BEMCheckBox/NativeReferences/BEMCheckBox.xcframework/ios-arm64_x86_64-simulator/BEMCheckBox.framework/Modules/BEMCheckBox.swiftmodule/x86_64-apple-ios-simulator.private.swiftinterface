@@ -1,0 +1,123 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios18.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BEMCheckBox
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc final public class BEMAnimationManager : ObjectiveC.NSObject {
+  @objc final public var animationDuration: Swift.Double
+  @objc public init(animationDuration: CoreFoundation.CFTimeInterval)
+  @objc final public func strokeAnimationReverse(_ reverse: Swift.Bool) -> QuartzCore.CABasicAnimation
+  @objc final public func opacityAnimationReverse(_ reverse: Swift.Bool) -> QuartzCore.CABasicAnimation
+  @objc final public func morphAnimation(from fromPath: UIKit.UIBezierPath?, to toPath: UIKit.UIBezierPath?) -> QuartzCore.CABasicAnimation
+  @objc final public func fillAnimation(withBounces bounces: Swift.Int, amplitude: CoreFoundation.CGFloat, reverse: Swift.Bool) -> QuartzCore.CAKeyframeAnimation
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class BEMCheckBoxGroup : ObjectiveC.NSObject {
+  @objc public var checkBoxes: Foundation.NSHashTable<BEMCheckBox.BEMCheckBox> {
+    get
+  }
+  @objc public var selectedCheckBox: BEMCheckBox.BEMCheckBox? {
+    @objc get
+    @objc set
+  }
+  @objc public var mustHaveSelection: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc override dynamic public init()
+  @objc convenience public init(checkBoxes: [BEMCheckBox.BEMCheckBox])
+  @objc public func contains(_ checkBox: BEMCheckBox.BEMCheckBox) -> Swift.Bool
+  @objc public func addCheckBoxToGroup(_ checkBox: BEMCheckBox.BEMCheckBox)
+  @objc public func removeCheckBoxFromGroup(_ checkBox: BEMCheckBox.BEMCheckBox)
+  @objc deinit
+}
+@objc public protocol BEMCheckBoxDelegate : ObjectiveC.NSObjectProtocol {
+  @objc optional func didTap(_ checkBox: BEMCheckBox.BEMCheckBox)
+  @objc optional func animationDidStop(for checkBox: BEMCheckBox.BEMCheckBox)
+}
+@_inheritsConvenienceInitializers @IBDesignable @objc @_Concurrency.MainActor @preconcurrency public class BEMCheckBox : UIKit.UIControl, QuartzCore.CAAnimationDelegate {
+  @objc(BEMBoxType) public enum BoxType : Swift.Int {
+    case circle
+    case square
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc(BEMAnimationType) public enum AnimationType : Swift.Int {
+    case stroke
+    case fill
+    case bounce
+    case flat
+    case oneStroke
+    case fade
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var delegate: (any BEMCheckBox.BEMCheckBoxDelegate)?
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var on: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var boxType: BEMCheckBox.BEMCheckBox.BoxType {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var lineWidth: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var cornerRadius: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var animationDuration: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var hideBox: Swift.Bool
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var onTintColor: UIKit.UIColor?
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var onFillColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var offFillColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency public var onCheckColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var group: BEMCheckBox.BEMCheckBoxGroup?
+  @objc @_Concurrency.MainActor @preconcurrency public var onAnimationType: BEMCheckBox.BEMCheckBox.AnimationType
+  @objc @_Concurrency.MainActor @preconcurrency public var offAnimationType: BEMCheckBox.BEMCheckBox.AnimationType
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var frame: CoreFoundation.CGRect {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public func setOn(_ on: Swift.Bool, animated: Swift.Bool = false)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func point(inside point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc public func animationDidStop(_ anim: QuartzCore.CAAnimation, finished flag: Swift.Bool)
+  @objc deinit
+}
+extension BEMCheckBox.BEMCheckBox.BoxType : Swift.Equatable {}
+extension BEMCheckBox.BEMCheckBox.BoxType : Swift.Hashable {}
+extension BEMCheckBox.BEMCheckBox.BoxType : Swift.RawRepresentable {}
+extension BEMCheckBox.BEMCheckBox.AnimationType : Swift.Equatable {}
+extension BEMCheckBox.BEMCheckBox.AnimationType : Swift.Hashable {}
+extension BEMCheckBox.BEMCheckBox.AnimationType : Swift.RawRepresentable {}
