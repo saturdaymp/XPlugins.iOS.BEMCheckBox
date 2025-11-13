@@ -1,0 +1,4 @@
+framework module BEMCheckBox {
+  header "BEMCheckBox-Swift.h"
+  requires objc
+}

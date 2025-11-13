@@ -1,0 +1,3847 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "BEMCheckBox",
+    "printedName": "BEMCheckBox",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BEMCheckBox",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BEMAnimationManager",
+        "printedName": "BEMAnimationManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "animationDuration",
+            "printedName": "animationDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMAnimationManager(py)animationDuration",
+            "mangledName": "$s11BEMCheckBox19BEMAnimationManagerC17animationDurationSdvp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMAnimationManager(im)animationDuration",
+                "mangledName": "$s11BEMCheckBox19BEMAnimationManagerC17animationDurationSdvg",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMAnimationManager(im)setAnimationDuration:",
+                "mangledName": "$s11BEMCheckBox19BEMAnimationManagerC17animationDurationSdvs",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BEMCheckBox19BEMAnimationManagerC17animationDurationSdvM",
+                "mangledName": "$s11BEMCheckBox19BEMAnimationManagerC17animationDurationSdvM",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(animationDuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BEMAnimationManager",
+                "printedName": "BEMCheckBox.BEMAnimationManager",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMAnimationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMAnimationManager(im)initWithAnimationDuration:",
+            "mangledName": "$s11BEMCheckBox19BEMAnimationManagerC17animationDurationACSd_tcfc",
+            "moduleName": "BEMCheckBox",
+            "objc_name": "initWithAnimationDuration:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "strokeAnimationReverse",
+            "printedName": "strokeAnimationReverse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CABasicAnimation",
+                "printedName": "QuartzCore.CABasicAnimation",
+                "usr": "c:objc(cs)CABasicAnimation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMAnimationManager(im)strokeAnimationReverse:",
+            "mangledName": "$s11BEMCheckBox19BEMAnimationManagerC22strokeAnimationReverseySo07CABasicF0CSbF",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "opacityAnimationReverse",
+            "printedName": "opacityAnimationReverse(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CABasicAnimation",
+                "printedName": "QuartzCore.CABasicAnimation",
+                "usr": "c:objc(cs)CABasicAnimation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMAnimationManager(im)opacityAnimationReverse:",
+            "mangledName": "$s11BEMCheckBox19BEMAnimationManagerC23opacityAnimationReverseySo07CABasicF0CSbF",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "morphAnimation",
+            "printedName": "morphAnimation(from:to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CABasicAnimation",
+                "printedName": "QuartzCore.CABasicAnimation",
+                "usr": "c:objc(cs)CABasicAnimation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIBezierPath?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIBezierPath",
+                    "printedName": "UIKit.UIBezierPath",
+                    "usr": "c:objc(cs)UIBezierPath"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIBezierPath?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIBezierPath",
+                    "printedName": "UIKit.UIBezierPath",
+                    "usr": "c:objc(cs)UIBezierPath"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMAnimationManager(im)morphAnimationFrom:to:",
+            "mangledName": "$s11BEMCheckBox19BEMAnimationManagerC14morphAnimation4from2toSo07CABasicF0CSo12UIBezierPathCSg_AKtF",
+            "moduleName": "BEMCheckBox",
+            "objc_name": "morphAnimationFrom:to:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fillAnimation",
+            "printedName": "fillAnimation(withBounces:amplitude:reverse:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CAKeyframeAnimation",
+                "printedName": "QuartzCore.CAKeyframeAnimation",
+                "usr": "c:objc(cs)CAKeyframeAnimation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMAnimationManager(im)fillAnimationWithBounces:amplitude:reverse:",
+            "mangledName": "$s11BEMCheckBox19BEMAnimationManagerC13fillAnimation11withBounces9amplitude7reverseSo010CAKeyframeF0CSi_12CoreGraphics7CGFloatVSbtF",
+            "moduleName": "BEMCheckBox",
+            "objc_name": "fillAnimationWithBounces:amplitude:reverse:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BEMAnimationManager",
+                "printedName": "BEMCheckBox.BEMAnimationManager",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMAnimationManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMAnimationManager(im)init",
+            "mangledName": "$s11BEMCheckBox19BEMAnimationManagerCACycfc",
+            "moduleName": "BEMCheckBox",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BEMCheckBox@objc(cs)BEMAnimationManager",
+        "mangledName": "$s11BEMCheckBox19BEMAnimationManagerC",
+        "moduleName": "BEMCheckBox",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BEMCheckBox",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BEMCheckBoxGroup",
+        "printedName": "BEMCheckBoxGroup",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "checkBoxes",
+            "printedName": "checkBoxes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSHashTable",
+                "printedName": "Foundation.NSHashTable<BEMCheckBox.BEMCheckBox>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BEMCheckBox",
+                    "printedName": "BEMCheckBox.BEMCheckBox",
+                    "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox"
+                  }
+                ],
+                "usr": "c:objc(cs)NSHashTable"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup(py)checkBoxes",
+            "mangledName": "$s11BEMCheckBox0aB5GroupC10checkBoxesSo11NSHashTableCyA2ACGvp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSHashTable",
+                    "printedName": "Foundation.NSHashTable<BEMCheckBox.BEMCheckBox>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BEMCheckBox",
+                        "printedName": "BEMCheckBox.BEMCheckBox",
+                        "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox"
+                      }
+                    ],
+                    "usr": "c:objc(cs)NSHashTable"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup(im)checkBoxes",
+                "mangledName": "$s11BEMCheckBox0aB5GroupC10checkBoxesSo11NSHashTableCyA2ACGvg",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "selectedCheckBox",
+            "printedName": "selectedCheckBox",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BEMCheckBox.BEMCheckBox?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BEMCheckBox",
+                    "printedName": "BEMCheckBox.BEMCheckBox",
+                    "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup(py)selectedCheckBox",
+            "mangledName": "$s11BEMCheckBox0aB5GroupC013selectedCheckB0A2ACSgvp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BEMCheckBox.BEMCheckBox?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BEMCheckBox",
+                        "printedName": "BEMCheckBox.BEMCheckBox",
+                        "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup(im)selectedCheckBox",
+                "mangledName": "$s11BEMCheckBox0aB5GroupC013selectedCheckB0A2ACSgvg",
+                "moduleName": "BEMCheckBox",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BEMCheckBox.BEMCheckBox?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BEMCheckBox",
+                        "printedName": "BEMCheckBox.BEMCheckBox",
+                        "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup(im)setSelectedCheckBox:",
+                "mangledName": "$s11BEMCheckBox0aB5GroupC013selectedCheckB0A2ACSgvs",
+                "moduleName": "BEMCheckBox",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BEMCheckBox0aB5GroupC013selectedCheckB0A2ACSgvM",
+                "mangledName": "$s11BEMCheckBox0aB5GroupC013selectedCheckB0A2ACSgvM",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mustHaveSelection",
+            "printedName": "mustHaveSelection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup(py)mustHaveSelection",
+            "mangledName": "$s11BEMCheckBox0aB5GroupC17mustHaveSelectionSbvp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup(im)mustHaveSelection",
+                "mangledName": "$s11BEMCheckBox0aB5GroupC17mustHaveSelectionSbvg",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup(im)setMustHaveSelection:",
+                "mangledName": "$s11BEMCheckBox0aB5GroupC17mustHaveSelectionSbvs",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BEMCheckBox0aB5GroupC17mustHaveSelectionSbvM",
+                "mangledName": "$s11BEMCheckBox0aB5GroupC17mustHaveSelectionSbvM",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BEMCheckBoxGroup",
+                "printedName": "BEMCheckBox.BEMCheckBoxGroup",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup(im)init",
+            "mangledName": "$s11BEMCheckBox0aB5GroupCACycfc",
+            "moduleName": "BEMCheckBox",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(checkBoxes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BEMCheckBoxGroup",
+                "printedName": "BEMCheckBox.BEMCheckBoxGroup",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BEMCheckBox.BEMCheckBox]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BEMCheckBox",
+                    "printedName": "BEMCheckBox.BEMCheckBox",
+                    "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup(im)initWithCheckBoxes:",
+            "mangledName": "$s11BEMCheckBox0aB5GroupC10checkBoxesACSayA2ACG_tcfc",
+            "moduleName": "BEMCheckBox",
+            "objc_name": "initWithCheckBoxes:",
+            "declAttributes": [
+              "AccessControl",
+              "Convenience",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "contains",
+            "printedName": "contains(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BEMCheckBox",
+                "printedName": "BEMCheckBox.BEMCheckBox",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup(im)contains:",
+            "mangledName": "$s11BEMCheckBox0aB5GroupC8containsySbA2ACF",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addCheckBoxToGroup",
+            "printedName": "addCheckBoxToGroup(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BEMCheckBox",
+                "printedName": "BEMCheckBox.BEMCheckBox",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup(im)addCheckBoxToGroup:",
+            "mangledName": "$s11BEMCheckBox0aB5GroupC08addCheckb2ToC0yyA2ACF",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeCheckBoxFromGroup",
+            "printedName": "removeCheckBoxFromGroup(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BEMCheckBox",
+                "printedName": "BEMCheckBox.BEMCheckBox",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup(im)removeCheckBoxFromGroup:",
+            "mangledName": "$s11BEMCheckBox0aB5GroupC011removeCheckb4FromC0yyA2ACF",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup",
+        "mangledName": "$s11BEMCheckBox0aB5GroupC",
+        "moduleName": "BEMCheckBox",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BEMCheckBox",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BEMCheckBox",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BEMCheckBoxDelegate",
+        "printedName": "BEMCheckBoxDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didTap",
+            "printedName": "didTap(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BEMCheckBox",
+                "printedName": "BEMCheckBox.BEMCheckBox",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BEMCheckBox@objc(pl)BEMCheckBoxDelegate(im)didTap:",
+            "mangledName": "$s11BEMCheckBox0aB8DelegateP6didTapyyA2ACF",
+            "moduleName": "BEMCheckBox",
+            "genericSig": "<τ_0_0 where τ_0_0 : BEMCheckBox.BEMCheckBoxDelegate>",
+            "sugared_genericSig": "<Self where Self : BEMCheckBox.BEMCheckBoxDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "animationDidStop",
+            "printedName": "animationDidStop(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BEMCheckBox",
+                "printedName": "BEMCheckBox.BEMCheckBox",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BEMCheckBox@objc(pl)BEMCheckBoxDelegate(im)animationDidStopFor:",
+            "mangledName": "$s11BEMCheckBox0aB8DelegateP16animationDidStop3foryA2AC_tF",
+            "moduleName": "BEMCheckBox",
+            "genericSig": "<τ_0_0 where τ_0_0 : BEMCheckBox.BEMCheckBoxDelegate>",
+            "sugared_genericSig": "<Self where Self : BEMCheckBox.BEMCheckBoxDelegate>",
+            "protocolReq": true,
+            "objc_name": "animationDidStopFor:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@BEMCheckBox@objc(pl)BEMCheckBoxDelegate",
+        "mangledName": "$s11BEMCheckBox0aB8DelegateP",
+        "moduleName": "BEMCheckBox",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BEMCheckBox",
+        "printedName": "BEMCheckBox",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "BoxType",
+            "printedName": "BoxType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "circle",
+                "printedName": "circle",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BEMCheckBox.BEMCheckBox.BoxType.Type) -> BEMCheckBox.BEMCheckBox.BoxType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BoxType",
+                        "printedName": "BEMCheckBox.BEMCheckBox.BoxType",
+                        "usr": "s:11BEMCheckBoxAAC0B4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BEMCheckBox.BEMCheckBox.BoxType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "BoxType",
+                            "printedName": "BEMCheckBox.BEMCheckBox.BoxType",
+                            "usr": "s:11BEMCheckBoxAAC0B4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11BEMCheckBoxAAC0B4TypeO6circleyA2DmF",
+                "mangledName": "$s11BEMCheckBoxAAC0B4TypeO6circleyA2DmF",
+                "moduleName": "BEMCheckBox",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "square",
+                "printedName": "square",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BEMCheckBox.BEMCheckBox.BoxType.Type) -> BEMCheckBox.BEMCheckBox.BoxType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BoxType",
+                        "printedName": "BEMCheckBox.BEMCheckBox.BoxType",
+                        "usr": "s:11BEMCheckBoxAAC0B4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BEMCheckBox.BEMCheckBox.BoxType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "BoxType",
+                            "printedName": "BEMCheckBox.BEMCheckBox.BoxType",
+                            "usr": "s:11BEMCheckBoxAAC0B4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11BEMCheckBoxAAC0B4TypeO6squareyA2DmF",
+                "mangledName": "$s11BEMCheckBoxAAC0B4TypeO6squareyA2DmF",
+                "moduleName": "BEMCheckBox",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BEMCheckBox.BEMCheckBox.BoxType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BoxType",
+                        "printedName": "BEMCheckBox.BEMCheckBox.BoxType",
+                        "usr": "s:11BEMCheckBoxAAC0B4TypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11BEMCheckBoxAAC0B4TypeO8rawValueADSgSi_tcfc",
+                "mangledName": "$s11BEMCheckBoxAAC0B4TypeO8rawValueADSgSi_tcfc",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11BEMCheckBoxAAC0B4TypeO8rawValueSivp",
+                "mangledName": "$s11BEMCheckBoxAAC0B4TypeO8rawValueSivp",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11BEMCheckBoxAAC0B4TypeO8rawValueSivg",
+                    "mangledName": "$s11BEMCheckBoxAAC0B4TypeO8rawValueSivg",
+                    "moduleName": "BEMCheckBox",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11BEMCheckBoxAAC0B4TypeO",
+            "mangledName": "$s11BEMCheckBoxAAC0B4TypeO",
+            "moduleName": "BEMCheckBox",
+            "objc_name": "BEMBoxType",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "AnimationType",
+            "printedName": "AnimationType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "stroke",
+                "printedName": "stroke",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BEMCheckBox.BEMCheckBox.AnimationType.Type) -> BEMCheckBox.BEMCheckBox.AnimationType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimationType",
+                        "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                        "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BEMCheckBox.BEMCheckBox.AnimationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnimationType",
+                            "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                            "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11BEMCheckBoxAAC13AnimationTypeO6strokeyA2DmF",
+                "mangledName": "$s11BEMCheckBoxAAC13AnimationTypeO6strokeyA2DmF",
+                "moduleName": "BEMCheckBox",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "fill",
+                "printedName": "fill",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BEMCheckBox.BEMCheckBox.AnimationType.Type) -> BEMCheckBox.BEMCheckBox.AnimationType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimationType",
+                        "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                        "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BEMCheckBox.BEMCheckBox.AnimationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnimationType",
+                            "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                            "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11BEMCheckBoxAAC13AnimationTypeO4fillyA2DmF",
+                "mangledName": "$s11BEMCheckBoxAAC13AnimationTypeO4fillyA2DmF",
+                "moduleName": "BEMCheckBox",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "bounce",
+                "printedName": "bounce",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BEMCheckBox.BEMCheckBox.AnimationType.Type) -> BEMCheckBox.BEMCheckBox.AnimationType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimationType",
+                        "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                        "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BEMCheckBox.BEMCheckBox.AnimationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnimationType",
+                            "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                            "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11BEMCheckBoxAAC13AnimationTypeO6bounceyA2DmF",
+                "mangledName": "$s11BEMCheckBoxAAC13AnimationTypeO6bounceyA2DmF",
+                "moduleName": "BEMCheckBox",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 2
+              },
+              {
+                "kind": "Var",
+                "name": "flat",
+                "printedName": "flat",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BEMCheckBox.BEMCheckBox.AnimationType.Type) -> BEMCheckBox.BEMCheckBox.AnimationType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimationType",
+                        "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                        "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BEMCheckBox.BEMCheckBox.AnimationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnimationType",
+                            "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                            "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11BEMCheckBoxAAC13AnimationTypeO4flatyA2DmF",
+                "mangledName": "$s11BEMCheckBoxAAC13AnimationTypeO4flatyA2DmF",
+                "moduleName": "BEMCheckBox",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 3
+              },
+              {
+                "kind": "Var",
+                "name": "oneStroke",
+                "printedName": "oneStroke",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BEMCheckBox.BEMCheckBox.AnimationType.Type) -> BEMCheckBox.BEMCheckBox.AnimationType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimationType",
+                        "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                        "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BEMCheckBox.BEMCheckBox.AnimationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnimationType",
+                            "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                            "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11BEMCheckBoxAAC13AnimationTypeO9oneStrokeyA2DmF",
+                "mangledName": "$s11BEMCheckBoxAAC13AnimationTypeO9oneStrokeyA2DmF",
+                "moduleName": "BEMCheckBox",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 4
+              },
+              {
+                "kind": "Var",
+                "name": "fade",
+                "printedName": "fade",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BEMCheckBox.BEMCheckBox.AnimationType.Type) -> BEMCheckBox.BEMCheckBox.AnimationType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimationType",
+                        "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                        "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BEMCheckBox.BEMCheckBox.AnimationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnimationType",
+                            "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                            "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11BEMCheckBoxAAC13AnimationTypeO4fadeyA2DmF",
+                "mangledName": "$s11BEMCheckBoxAAC13AnimationTypeO4fadeyA2DmF",
+                "moduleName": "BEMCheckBox",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 5
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BEMCheckBox.BEMCheckBox.AnimationType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimationType",
+                        "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                        "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11BEMCheckBoxAAC13AnimationTypeO8rawValueADSgSi_tcfc",
+                "mangledName": "$s11BEMCheckBoxAAC13AnimationTypeO8rawValueADSgSi_tcfc",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11BEMCheckBoxAAC13AnimationTypeO8rawValueSivp",
+                "mangledName": "$s11BEMCheckBoxAAC13AnimationTypeO8rawValueSivp",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11BEMCheckBoxAAC13AnimationTypeO8rawValueSivg",
+                    "mangledName": "$s11BEMCheckBoxAAC13AnimationTypeO8rawValueSivg",
+                    "moduleName": "BEMCheckBox",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11BEMCheckBoxAAC13AnimationTypeO",
+            "mangledName": "$s11BEMCheckBoxAAC13AnimationTypeO",
+            "moduleName": "BEMCheckBox",
+            "objc_name": "BEMAnimationType",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any BEMCheckBox.BEMCheckBoxDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(py)delegate",
+            "mangledName": "$s11BEMCheckBoxAAC8delegateAA0aB8Delegate_pSgvp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ReferenceOwnership",
+              "IBOutlet",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any BEMCheckBox.BEMCheckBoxDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BEMCheckBoxDelegate",
+                        "printedName": "any BEMCheckBox.BEMCheckBoxDelegate",
+                        "usr": "c:@M@BEMCheckBox@objc(pl)BEMCheckBoxDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)delegate",
+                "mangledName": "$s11BEMCheckBoxAAC8delegateAA0aB8Delegate_pSgvg",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any BEMCheckBox.BEMCheckBoxDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BEMCheckBoxDelegate",
+                        "printedName": "any BEMCheckBox.BEMCheckBoxDelegate",
+                        "usr": "c:@M@BEMCheckBox@objc(pl)BEMCheckBoxDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)setDelegate:",
+                "mangledName": "$s11BEMCheckBoxAAC8delegateAA0aB8Delegate_pSgvs",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BEMCheckBoxAAC8delegateAA0aB8Delegate_pSgvM",
+                "mangledName": "$s11BEMCheckBoxAAC8delegateAA0aB8Delegate_pSgvM",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "on",
+            "printedName": "on",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(py)on",
+            "mangledName": "$s11BEMCheckBoxAAC2onSbvp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)on",
+                "mangledName": "$s11BEMCheckBoxAAC2onSbvg",
+                "moduleName": "BEMCheckBox",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)setOn:",
+                "mangledName": "$s11BEMCheckBoxAAC2onSbvs",
+                "moduleName": "BEMCheckBox",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BEMCheckBoxAAC2onSbvM",
+                "mangledName": "$s11BEMCheckBoxAAC2onSbvM",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "boxType",
+            "printedName": "boxType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BoxType",
+                "printedName": "BEMCheckBox.BEMCheckBox.BoxType",
+                "usr": "s:11BEMCheckBoxAAC0B4TypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(py)boxType",
+            "mangledName": "$s11BEMCheckBoxAAC7boxTypeAB0bD0Ovp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BoxType",
+                    "printedName": "BEMCheckBox.BEMCheckBox.BoxType",
+                    "usr": "s:11BEMCheckBoxAAC0B4TypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)boxType",
+                "mangledName": "$s11BEMCheckBoxAAC7boxTypeAB0bD0Ovg",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BoxType",
+                    "printedName": "BEMCheckBox.BEMCheckBox.BoxType",
+                    "usr": "s:11BEMCheckBoxAAC0B4TypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)setBoxType:",
+                "mangledName": "$s11BEMCheckBoxAAC7boxTypeAB0bD0Ovs",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BEMCheckBoxAAC7boxTypeAB0bD0OvM",
+                "mangledName": "$s11BEMCheckBoxAAC7boxTypeAB0bD0OvM",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lineWidth",
+            "printedName": "lineWidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(py)lineWidth",
+            "mangledName": "$s11BEMCheckBoxAAC9lineWidth12CoreGraphics7CGFloatVvp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)lineWidth",
+                "mangledName": "$s11BEMCheckBoxAAC9lineWidth12CoreGraphics7CGFloatVvg",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)setLineWidth:",
+                "mangledName": "$s11BEMCheckBoxAAC9lineWidth12CoreGraphics7CGFloatVvs",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BEMCheckBoxAAC9lineWidth14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s11BEMCheckBoxAAC9lineWidth12CoreGraphics7CGFloatVvM",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cornerRadius",
+            "printedName": "cornerRadius",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(py)cornerRadius",
+            "mangledName": "$s11BEMCheckBoxAAC12cornerRadius12CoreGraphics7CGFloatVvp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)cornerRadius",
+                "mangledName": "$s11BEMCheckBoxAAC12cornerRadius12CoreGraphics7CGFloatVvg",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)setCornerRadius:",
+                "mangledName": "$s11BEMCheckBoxAAC12cornerRadius12CoreGraphics7CGFloatVvs",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BEMCheckBoxAAC12cornerRadius14CoreFoundation7CGFloatVvM",
+                "mangledName": "$s11BEMCheckBoxAAC12cornerRadius12CoreGraphics7CGFloatVvM",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "animationDuration",
+            "printedName": "animationDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(py)animationDuration",
+            "mangledName": "$s11BEMCheckBoxAAC17animationDurationSdvp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)animationDuration",
+                "mangledName": "$s11BEMCheckBoxAAC17animationDurationSdvg",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)setAnimationDuration:",
+                "mangledName": "$s11BEMCheckBoxAAC17animationDurationSdvs",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BEMCheckBoxAAC17animationDurationSdvM",
+                "mangledName": "$s11BEMCheckBoxAAC17animationDurationSdvM",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hideBox",
+            "printedName": "hideBox",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(py)hideBox",
+            "mangledName": "$s11BEMCheckBoxAAC04hideB0Sbvp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)hideBox",
+                "mangledName": "$s11BEMCheckBoxAAC04hideB0Sbvg",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)setHideBox:",
+                "mangledName": "$s11BEMCheckBoxAAC04hideB0Sbvs",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BEMCheckBoxAAC04hideB0SbvM",
+                "mangledName": "$s11BEMCheckBoxAAC04hideB0SbvM",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onTintColor",
+            "printedName": "onTintColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(py)onTintColor",
+            "mangledName": "$s11BEMCheckBoxAAC11onTintColorSo7UIColorCSgvp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)onTintColor",
+                "mangledName": "$s11BEMCheckBoxAAC11onTintColorSo7UIColorCSgvg",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)setOnTintColor:",
+                "mangledName": "$s11BEMCheckBoxAAC11onTintColorSo7UIColorCSgvs",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BEMCheckBoxAAC11onTintColorSo7UIColorCSgvM",
+                "mangledName": "$s11BEMCheckBoxAAC11onTintColorSo7UIColorCSgvM",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onFillColor",
+            "printedName": "onFillColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(py)onFillColor",
+            "mangledName": "$s11BEMCheckBoxAAC11onFillColorSo7UIColorCSgvp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)onFillColor",
+                "mangledName": "$s11BEMCheckBoxAAC11onFillColorSo7UIColorCSgvg",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)setOnFillColor:",
+                "mangledName": "$s11BEMCheckBoxAAC11onFillColorSo7UIColorCSgvs",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BEMCheckBoxAAC11onFillColorSo7UIColorCSgvM",
+                "mangledName": "$s11BEMCheckBoxAAC11onFillColorSo7UIColorCSgvM",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "offFillColor",
+            "printedName": "offFillColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(py)offFillColor",
+            "mangledName": "$s11BEMCheckBoxAAC12offFillColorSo7UIColorCSgvp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)offFillColor",
+                "mangledName": "$s11BEMCheckBoxAAC12offFillColorSo7UIColorCSgvg",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)setOffFillColor:",
+                "mangledName": "$s11BEMCheckBoxAAC12offFillColorSo7UIColorCSgvs",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BEMCheckBoxAAC12offFillColorSo7UIColorCSgvM",
+                "mangledName": "$s11BEMCheckBoxAAC12offFillColorSo7UIColorCSgvM",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onCheckColor",
+            "printedName": "onCheckColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(py)onCheckColor",
+            "mangledName": "$s11BEMCheckBoxAAC12onCheckColorSo7UIColorCSgvp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBInspectable",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)onCheckColor",
+                "mangledName": "$s11BEMCheckBoxAAC12onCheckColorSo7UIColorCSgvg",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)setOnCheckColor:",
+                "mangledName": "$s11BEMCheckBoxAAC12onCheckColorSo7UIColorCSgvs",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BEMCheckBoxAAC12onCheckColorSo7UIColorCSgvM",
+                "mangledName": "$s11BEMCheckBoxAAC12onCheckColorSo7UIColorCSgvM",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "group",
+            "printedName": "group",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BEMCheckBox.BEMCheckBoxGroup?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BEMCheckBoxGroup",
+                    "printedName": "BEMCheckBox.BEMCheckBoxGroup",
+                    "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(py)group",
+            "mangledName": "$s11BEMCheckBoxAAC5groupAA0aB5GroupCSgvp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BEMCheckBox.BEMCheckBoxGroup?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BEMCheckBoxGroup",
+                        "printedName": "BEMCheckBox.BEMCheckBoxGroup",
+                        "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)group",
+                "mangledName": "$s11BEMCheckBoxAAC5groupAA0aB5GroupCSgvg",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BEMCheckBox.BEMCheckBoxGroup?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BEMCheckBoxGroup",
+                        "printedName": "BEMCheckBox.BEMCheckBoxGroup",
+                        "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBoxGroup"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)setGroup:",
+                "mangledName": "$s11BEMCheckBoxAAC5groupAA0aB5GroupCSgvs",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BEMCheckBoxAAC5groupAA0aB5GroupCSgvM",
+                "mangledName": "$s11BEMCheckBoxAAC5groupAA0aB5GroupCSgvM",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onAnimationType",
+            "printedName": "onAnimationType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimationType",
+                "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(py)onAnimationType",
+            "mangledName": "$s11BEMCheckBoxAAC15onAnimationTypeAB0dE0Ovp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationType",
+                    "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                    "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)onAnimationType",
+                "mangledName": "$s11BEMCheckBoxAAC15onAnimationTypeAB0dE0Ovg",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationType",
+                    "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                    "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)setOnAnimationType:",
+                "mangledName": "$s11BEMCheckBoxAAC15onAnimationTypeAB0dE0Ovs",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BEMCheckBoxAAC15onAnimationTypeAB0dE0OvM",
+                "mangledName": "$s11BEMCheckBoxAAC15onAnimationTypeAB0dE0OvM",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "offAnimationType",
+            "printedName": "offAnimationType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimationType",
+                "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(py)offAnimationType",
+            "mangledName": "$s11BEMCheckBoxAAC16offAnimationTypeAB0dE0Ovp",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationType",
+                    "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                    "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)offAnimationType",
+                "mangledName": "$s11BEMCheckBoxAAC16offAnimationTypeAB0dE0Ovg",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationType",
+                    "printedName": "BEMCheckBox.BEMCheckBox.AnimationType",
+                    "usr": "s:11BEMCheckBoxAAC13AnimationTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)setOffAnimationType:",
+                "mangledName": "$s11BEMCheckBoxAAC16offAnimationTypeAB0dE0Ovs",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BEMCheckBoxAAC16offAnimationTypeAB0dE0OvM",
+                "mangledName": "$s11BEMCheckBoxAAC16offAnimationTypeAB0dE0OvM",
+                "moduleName": "BEMCheckBox",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BEMCheckBox",
+                "printedName": "BEMCheckBox.BEMCheckBox",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)initWithFrame:",
+            "mangledName": "$s11BEMCheckBoxAAC5frameABSo6CGRectV_tcfc",
+            "moduleName": "BEMCheckBox",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BEMCheckBox.BEMCheckBox?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BEMCheckBox",
+                    "printedName": "BEMCheckBox.BEMCheckBox",
+                    "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)initWithCoder:",
+            "mangledName": "$s11BEMCheckBoxAAC5coderABSgSo7NSCoderC_tcfc",
+            "moduleName": "BEMCheckBox",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "frame",
+            "printedName": "frame",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(py)frame",
+            "mangledName": "$s11BEMCheckBoxAAC5frameSo6CGRectVvp",
+            "moduleName": "BEMCheckBox",
+            "overriding": true,
+            "objc_name": "frame",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)frame",
+                "mangledName": "$s11BEMCheckBoxAAC5frameSo6CGRectVvg",
+                "moduleName": "BEMCheckBox",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "frame",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)setFrame:",
+                "mangledName": "$s11BEMCheckBoxAAC5frameSo6CGRectVvs",
+                "moduleName": "BEMCheckBox",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "setFrame:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)layoutSubviews",
+            "mangledName": "$s11BEMCheckBoxAAC14layoutSubviewsyyF",
+            "moduleName": "BEMCheckBox",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "intrinsicContentSize",
+            "printedName": "intrinsicContentSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(py)intrinsicContentSize",
+            "mangledName": "$s11BEMCheckBoxAAC20intrinsicContentSizeSo6CGSizeVvp",
+            "moduleName": "BEMCheckBox",
+            "overriding": true,
+            "objc_name": "intrinsicContentSize",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)intrinsicContentSize",
+                "mangledName": "$s11BEMCheckBoxAAC20intrinsicContentSizeSo6CGSizeVvg",
+                "moduleName": "BEMCheckBox",
+                "overriding": true,
+                "objc_name": "intrinsicContentSize",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setOn",
+            "printedName": "setOn(_:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)setOn:animated:",
+            "mangledName": "$s11BEMCheckBoxAAC5setOn_8animatedySb_SbtF",
+            "moduleName": "BEMCheckBox",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "point",
+            "printedName": "point(inside:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)pointInside:withEvent:",
+            "mangledName": "$s11BEMCheckBoxAAC5point6inside4withSbSo7CGPointV_So7UIEventCSgtF",
+            "moduleName": "BEMCheckBox",
+            "overriding": true,
+            "objc_name": "pointInside:withEvent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "animationDidStop",
+            "printedName": "animationDidStop(_:finished:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CAAnimation",
+                "printedName": "QuartzCore.CAAnimation",
+                "usr": "c:objc(cs)CAAnimation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox(im)animationDidStop:finished:",
+            "mangledName": "$s11BEMCheckBoxAAC16animationDidStop_8finishedySo11CAAnimationC_SbtF",
+            "moduleName": "BEMCheckBox",
+            "objc_name": "animationDidStop:finished:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BEMCheckBox@objc(cs)BEMCheckBox",
+        "mangledName": "$s11BEMCheckBoxAAC",
+        "moduleName": "BEMCheckBox",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC",
+          "IBDesignable",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)UIControl",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIControl",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMAnimationManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 352,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBoxGroup.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2071,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMPathManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 360,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMPathManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 454,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMPathManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 574,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1378,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1778,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1867,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2010,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2196,
+      "length": 9,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2300,
+      "length": 4,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "FloatLiteral",
+      "offset": 3214,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "FloatLiteral",
+      "offset": 3494,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "FloatLiteral",
+      "offset": 3802,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4038,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4185,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "FloatLiteral",
+      "offset": 4195,
+      "length": 5,
+      "value": "122.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "FloatLiteral",
+      "offset": 4203,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4216,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4222,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4234,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4780,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "FloatLiteral",
+      "offset": 4790,
+      "length": 5,
+      "value": "122.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "FloatLiteral",
+      "offset": 4798,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4811,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4817,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4829,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6863,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6875,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7925,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/BEMCheckBox\/BEMCheckBox\/Classes\/BEMCheckBox.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8819,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
