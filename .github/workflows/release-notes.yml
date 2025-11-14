@@ -8,7 +8,7 @@ on:
   push:
     branches: [ release/* ]
   pull_request:
-    branches: [ release/* ]
+    branches: [ main, release/* ]
 
 jobs:
   generate-release-notes:
