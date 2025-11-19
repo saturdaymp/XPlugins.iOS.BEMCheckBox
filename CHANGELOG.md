@@ -1,7 +1,7 @@
 ## v8.0.0 (Nov, 14, 2025)
 
 
-As part of this release we had [6 issues](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/6?closed=1) closed.
+As part of this release we had [7 issues](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/6?closed=1) closed.
 
 Release for .NET 8.  Other updates include updating to iOS 18.0 and BEMChecBox 2.2.0.
 
@@ -19,6 +19,7 @@ __Documentation__
 
 - [__!29__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/29) Update XPlugin version mapping to README
 - [__!31__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/31) Added sponsor shield to README
+- [__!37__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/37) Update documentation for v8.0.0 release
 
 ## v3.1.0 (Oct, 17, 2023)
 
