@@ -258,11 +258,31 @@ void SetOn(bool on, bool animated);
 
 ### Running ExampleClient
 
+**From an IDE:**
 1. Open solution in Visual Studio for Mac or VS Code
 2. Set ExampleClient as startup project
 3. Select iOS Simulator
 4. Build and run (F5)
 5. Interact with checkbox to test functionality
+
+**From the Command Line:**
+The .NET CLI does not directly support running iOS applications. To verify the ExampleClient builds correctly:
+
+```bash
+# Navigate to Source directory
+cd Source
+
+# Build the solution (includes ExampleClient)
+dotnet build -c Debug
+```
+
+To actually run the app, you must use an IDE (Visual Studio for Mac, Visual Studio, or Rider) or use advanced tools like `xcrun simctl` to manually install and launch the built .app bundle.
+
+**Requirements:**
+- macOS with Xcode installed
+- .NET 8.0 SDK
+- iOS Simulator available (for running)
+- IDE required for running (command-line build only)
 
 ## Important Constraints
 
@@ -300,10 +320,10 @@ void SetOn(bool on, bool animated);
 - Implicit validation of binding correctness
 
 **When making changes:**
-1. Build in Debug mode
-2. Run ExampleClient in iOS Simulator
+1. Build in Debug mode: `dotnet build -c Debug`
+2. Run ExampleClient in iOS Simulator (via IDE)
 3. Test affected functionality manually
-4. Verify NuGet package creation
+4. Verify NuGet package creation: `dotnet pack -c Release`
 5. Check CI passes before merging
 
 **Future considerations:**
