@@ -1,52 +1,44 @@
 name: Release Notes
 
+permissions:
+  contents: write
+  pull-requests: write
+
 on:
   push:
-    branches: [ master, release/* ]
+    branches: [ release/* ]
   pull_request:
-    branches: [ master, release/* ]
+    branches: [ main, release/* ]
 
 jobs:
   generate-release-notes:
     name: Generate Release Notes
-    runs-on: macos-13
+    runs-on: macos-15
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Required for Calculate Version step (e.g. GitVersion)
 
-      # Required by GitVersion
-      - name: Install .NET 6.0
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: 6.0
-
       - name: Install GitVersion
-        uses: gittools/actions/gitversion/setup@v0.10.2
+        uses: gittools/actions/gitversion/setup@51d325634925d7d9ce0a7efc2c586c0bc2b9eee6 #v3.2.1
         with:
-          versionSpec: '5.12.0'
-
-      - name: GitVersion Config
-        uses: gittools/actions/gitversion/execute@v0.10.2
-        with:
-          useConfigFile: true
-          additionalArguments: '/showConfig'
+          versionSpec: '6.3.0'
 
       - name: Determine Version
         id: gitversion
-        uses: gittools/actions/gitversion/execute@v0.10.2
+        uses: gittools/actions/gitversion/execute@51d325634925d7d9ce0a7efc2c586c0bc2b9eee6 #v3.2.1
         with:
           useConfigFile: true
-          additionalArguments: '/updateprojectfiles'
+          updateProjectFiles: true
 
       - name: Install GitReleaseManager
-        uses: gittools/actions/gitreleasemanager/setup@v0.10.2
+        uses: gittools/actions/gitreleasemanager/setup@51d325634925d7d9ce0a7efc2c586c0bc2b9eee6 #v3.2.1
         with:
-          versionSpec: '0.13.0'
+          versionSpec: '0.20.0'
 
-      # If there are no closed issues generating the Github Release will fail because it raises an exception.
+      # If there are no closed issues generating the GitHub Release will fail because it raises an exception.
       # Work around this by checking for success or no closed issue errors.
       - name: Create Release ${{ steps.gitversion.outputs.majorMinorPatch }}
         run: |
@@ -60,7 +52,7 @@ jobs:
           cat CHANGELOG.md
 
       - name: 'Commit Change Log if it Changed'
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@778341af668090896ca464160c2def5d1d1a3eb0 #v6.0.1
         with:
           commit_message: Committing auto generated change log.
           file_pattern: CHANGELOG.md

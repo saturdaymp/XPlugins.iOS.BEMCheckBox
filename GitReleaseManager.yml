@@ -32,10 +32,14 @@ issue-labels-alias:
   - name: documentation
     header: Documentation
     plural: Documentation
-
+    
   - name: enhancement
     header: Enhancement
     plural: Enhancements
+
+  - name: feature
+    header: Feature
+    plural: Feature
 
   - name: refactoring
     header: Refactoring
