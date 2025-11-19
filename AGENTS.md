@@ -405,7 +405,7 @@ To actually run the app, you must use an IDE (Visual Studio for Mac, Visual Stud
 ## External References
 
 ### Documentation
-- [Microsoft Learn: Binding iOS Swift Libraries](https://learn.microsoft.com/en-us/xamarin/ios/platform/binding-swift/)
+- [Microsoft Learn: Binding iOS Swift Libraries](https://learn.microsoft.com/xamarin/ios/platform/binding-swift/)
 - [Project README](README.md:1)
 - [BEMCheckBox Original Framework](https://github.com/saturdaymp/BEMCheckBox)
 

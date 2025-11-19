@@ -99,16 +99,16 @@ The .NET version lists the minimum .NET and iOS versions required.  For example,
 
 Starting with version 8, the XPlugin version will match the .NET release it is targeting.
 
-| XPlugin | BEMCheckBox | Frameworks/Minimum Version |
-| ---:        | ---:    | ---:       |
-| [8.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/8.0.0) | [2.2.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.2.0) | .NET/net8.0-ios18.0
-| [3.1.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.1.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) | .NET/net6.0-ios12.0
-| [3.0.1](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.0.1) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) | .NET/net6.0-ios12.0
-| [3.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.0.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) | .NET/net6.0-ios16.1
-| [2.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/2.0.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) | Xamarin.iOS/xamarinios10
-| [1.4.3](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.3) | [1.4.1](https://github.com/saturdaymp/BEMCheckBox/releases/tag/1.4.1) | Xamarin.iOS/xamarinios10
-| [1.4.2](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.2) | [1.4.1](https://github.com/saturdaymp/BEMCheckBox/releases/tag/1.4.1) | Xamarin.iOS/xamarinios10
-| [1.4.1](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.1) | [1.4.1](https://github.com/saturdaymp/BEMCheckBox/releases/tag/1.4.1) | Xamarin.iOS/xamarinios10
+|                                                                            XPlugin |                                                           BEMCheckBox | Frameworks/Minimum Version |
+|-----------------------------------------------------------------------------------:|----------------------------------------------------------------------:|---------------------------:|
+| [8.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/8.0.0) | [2.2.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.2.0) |        .NET/net8.0-ios18.0 |
+| [3.1.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.1.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) |        .NET/net6.0-ios12.0 |
+| [3.0.1](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.0.1) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) |        .NET/net6.0-ios12.0 |
+| [3.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.0.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) |        .NET/net6.0-ios16.1 |
+| [2.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/2.0.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) |   Xamarin.iOS/xamarinios10 |
+| [1.4.3](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.3) | [1.4.1](https://github.com/saturdaymp/BEMCheckBox/releases/tag/1.4.1) |   Xamarin.iOS/xamarinios10 |
+| [1.4.2](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.2) | [1.4.1](https://github.com/saturdaymp/BEMCheckBox/releases/tag/1.4.1) |   Xamarin.iOS/xamarinios10 |
+| [1.4.1](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.1) | [1.4.1](https://github.com/saturdaymp/BEMCheckBox/releases/tag/1.4.1) |   Xamarin.iOS/xamarinios10 |
 
 If you spot any issues with the versioning table or a version combination you need is not listed, even unsupported versions, let me know by opening an [issue](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/issues).
 
@@ -127,4 +127,4 @@ Thanks to [Boris Emorine](https://github.com/Boris-Em) for creating the BEMCheck
 * [Part 2](https://nftb.saturdaymp.com/today-i-learned-how-to-create-a-xamarin-ios-binding-for-objective-c-libraries-part-2-combining-libraries/)
 * [Part 3](https://nftb.saturdaymp.com/today-i-learned-how-to-create-a-xamarin-ios-binding-for-objective-c-libraries-part-3-using-sharpie-to-create-binding-interface/)
 * [Part 4](https://nftb.saturdaymp.com/today-i-learned-how-to-create-a-xamarin-ios-binding-for-objective-c-libraries-part-4-the-actual-binding/)
-* [Today I Learned How to Automate Objective-c Builds in TeamCity](https://nftb.saturdaymp.com/today-i-learned-how-to-automate-objective-c-builds-in-teamcity/)
+* [Today I Learned How to Automate Objective-C Builds in TeamCity](https://nftb.saturdaymp.com/today-i-learned-how-to-automate-objective-c-builds-in-teamcity/)
