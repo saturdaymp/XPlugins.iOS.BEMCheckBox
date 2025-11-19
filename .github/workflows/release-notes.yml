@@ -38,7 +38,7 @@ jobs:
         with:
           versionSpec: '0.20.0'
 
-      # If there are no closed issues generating the Github Release will fail because it raises an exception.
+      # If there are no closed issues generating the GitHub Release will fail because it raises an exception.
       # Work around this by checking for success or no closed issue errors.
       - name: Create Release ${{ steps.gitversion.outputs.majorMinorPatch }}
         run: |
