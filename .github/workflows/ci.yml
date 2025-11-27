@@ -58,7 +58,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: nuget-package
-          path: Source/SaturdayMP.XPlugins.iOS.BEMCheckBox/bin/Release/SaturdayMP.XPlugins.iOS.BEMCheckBox.${{ steps.gitversion.outputs.semVer }}..nupkg
+          path: Source/SaturdayMP.XPlugins.iOS.BEMCheckBox/bin/Release/SaturdayMP.XPlugins.iOS.BEMCheckBox.${{ steps.gitversion.outputs.semVer }}.nupkg
           retention-days: 90
 
       - name: Publish to MyGet
