@@ -6,7 +6,7 @@ This document provides guidance for AI agents (like Claude Code, GitHub Copilot,
 
 **XPlugins.iOS.BEMCheckBox** is a .NET iOS binding library that wraps the native Swift BEMCheckBox framework for use in .NET iOS applications. It enables .NET developers to use highly customizable, animated checkbox controls in their iOS applications.
 
-**Current Version:** 8.0.0
+**Current Version:** 9.0.0
 **Target Framework:** net9.0-ios18.0
 **Language:** C# 12
 **Package:** SaturdayMP.XPlugins.iOS.BEMCheckBox (NuGet)
@@ -128,7 +128,7 @@ dotnet pack Source/SaturdayMP.XPlugins.iOS.BEMCheckBox/SaturdayMP.XPlugins.iOS.B
 - Version is determined from Git tags and branch names
 - Format: Semantic versioning (major.minor.patch)
 - Configuration: GitVersion.yml:1
-- Current version: 8.0.0
+- Current version: 9.0.0
 
 **Version workflow:**
 1. Work on feature branches or release/* branches
@@ -444,6 +444,6 @@ To actually run the app, you must use an IDE (Visual Studio for Mac, Visual Stud
 
 ---
 
-**Last Updated:** 2025-11-19
-**For Version:** 8.0.0
+**Last Updated:** 2025-11-27
+**For Version:** 9.0.0
 **Agent Compatibility:** Optimized for Claude Code, GitHub Copilot, and other AI coding assistants
