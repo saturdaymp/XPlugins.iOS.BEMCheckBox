@@ -93,4 +93,4 @@ jobs:
 
       # Only push tagged builds to NuGet. These will be production or release candidates.
       - name: Publish to NuGet
-        run: dotnet nuget push ./packages/SaturdayMP.XPlugins.iOS.BEMCheckBox.${{ needs.build.outputs.version }}.nupkg  --api-key ${{steps.nuget-login.outputs.NUGET_API_KEY}} --skip-duplicate --no-symbols -s https://api.nuget.org/v3/index.json
+        run: dotnet nuget push ./packages/SaturdayMP.XPlugins.iOS.BEMCheckBox.${{ needs.build.outputs.version }}.nupkg --api-key ${{ steps.nuget-login.outputs.NUGET_API_KEY}} --skip-duplicate --no-symbols -s https://api.nuget.org/v3/index.json
