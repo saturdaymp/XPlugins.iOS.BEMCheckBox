@@ -23,10 +23,10 @@ jobs:
         with:
           fetch-depth: 0 # Required for Calculate Version step (e.g. GitVersion)
 
-      - name: Install .NET 8.0
+      - name: Install .NET 9.0
         uses: actions/setup-dotnet@v5
         with:
-          dotnet-version: 8.0
+          dotnet-version: 9.0
 
       - name: Install Workloads
         run: dotnet workload restore
@@ -73,10 +73,10 @@ jobs:
       id-token: write # Required for Trusted Publishing (OIDC token generation)
 
     steps:
-      - name: Install .NET 8.0
+      - name: Install .NET 9.0
         uses: actions/setup-dotnet@v5
         with:
-          dotnet-version: 8.0
+          dotnet-version: 9.0
 
       - name: Download NuGet Package Artifact
         uses: actions/download-artifact@v4

@@ -1,4 +1,4 @@
-## v8.0.0 (Nov, 14, 2025)
+## v8.0.0 (Nov, 27, 2025)
 
 
 As part of this release we had [8 issues](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/6?closed=1) closed.
@@ -21,22 +21,6 @@ __Documentation__
 - [__!29__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/29) Update XPlugin version mapping to README
 - [__!31__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/31) Added sponsor shield to README
 - [__!37__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/37) Update documentation for v8.0.0 release
-
-## v3.1.0 (Oct, 17, 2023)
-
-
-As part of this release we had [3 issues](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/6?closed=1) closed.
-
-
-
-__DevOps__
-
-- [__#30__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/30) Add SaturdayMP sponsorship button
-
-__Documentation__
-
-- [__#29__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/29) Update XPlugin version mapping to README
-- [__#31__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/31) Added sponsor shield to README
 
 ## v3.0.1 (Oct, 14, 2023)
 
@@ -120,7 +104,7 @@ For a full list of issues fixed see the [1.4.3 Milestone](https://github.com/sat
 Fixed an issue where publishing to the App Store with a project that included BEMCheckBox would raise a Bitcode error.
 
 For a full list of issues fixed see the [1.4.2 Milestone](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/1).
-## 1.4.1 (Aug, 2, 2017)
 
+## 1.4.1 (Aug, 2, 2017)
 
 Wraps [BEMCheckBox](https://github.com/Boris-Em/BEMCheckBox) version [1.4.1](https://github.com/Boris-Em/BEMCheckBox/releases/tag/1.4.1).
