@@ -69,6 +69,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
+    permissions:
+      id-token: write # Required for Trusted Publishing (OIDC token generation)
 
     steps:
       - name: Install .NET 8.0
@@ -82,6 +84,12 @@ jobs:
           name: nuget-package
           path: ./packages
 
+      # Authenticate to NuGet.org using Trusted Publishing (OIDC)
+      - name: Login to NuGet
+        uses: NuGet/login@v1
+        with:
+          user: ${{ secrets.NUGET_USERNAME }}
+
       # Only push tagged builds to NuGet. These will be production or release candidates.
       - name: Publish to NuGet
-        run: dotnet nuget push ./packages/SaturdayMP.XPlugins.iOS.BEMCheckBox.${{ needs.build.outputs.version }}.nupkg -k ${{ secrets.NUGET_API_KEY }} --skip-duplicate --no-symbols -s https://api.nuget.org/v3/index.json
+        run: dotnet nuget push ./packages/SaturdayMP.XPlugins.iOS.BEMCheckBox.${{ needs.build.outputs.version }}.nupkg --skip-duplicate --no-symbols -s https://api.nuget.org/v3/index.json
