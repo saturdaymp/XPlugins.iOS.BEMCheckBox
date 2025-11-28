@@ -1,3 +1,14 @@
+## v9.0.0 (Nov, 28, 2025)
+
+
+As part of this release we had [1 issue](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/milestone/7?closed=1) closed.
+
+Update from .NET 8.0 to .NET 9.0.
+
+__Breaking__
+
+- [__!40__](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/pull/40) Update project to .NET 9.0
+
 ## v8.0.0 (Nov, 27, 2025)
 
 
@@ -108,4 +119,3 @@ For a full list of issues fixed see the [1.4.2 Milestone](https://github.com/sat
 
 
 Wraps [BEMCheckBox](https://github.com/Boris-Em/BEMCheckBox) version [1.4.1](https://github.com/Boris-Em/BEMCheckBox/releases/tag/1.4.1).
-ckBox/releases/tag/1.4.1).
