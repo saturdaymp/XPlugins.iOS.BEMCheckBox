@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     name: Build and Test
-    runs-on: macos-15
+    runs-on: macos-26
     outputs:
       version: ${{ steps.gitversion.outputs.semVer }}
     defaults:
