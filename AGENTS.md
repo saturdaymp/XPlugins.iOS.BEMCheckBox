@@ -7,7 +7,7 @@ This document provides guidance for AI agents (like Claude Code, GitHub Copilot,
 **XPlugins.iOS.BEMCheckBox** is a .NET iOS binding library that wraps the native Swift BEMCheckBox framework for use in .NET iOS applications. It enables .NET developers to use highly customizable, animated checkbox controls in their iOS applications.
 
 **Current Version:** 9.0.0
-**Target Framework:** net9.0-ios18.0
+**Target Framework:** net10.0-ios (minimum iOS 18.0)
 **Language:** C# 12
 **Package:** SaturdayMP.XPlugins.iOS.BEMCheckBox (NuGet)
 
@@ -23,7 +23,7 @@ This document provides guidance for AI agents (like Claude Code, GitHub Copilot,
 ├── ExampleClient/                          # Demo iOS application
 │   ├── MainViewController.cs               # Usage examples
 │   └── *.csproj                            # Example app project
-└── global.json                             # .NET SDK version (9.0.0)
+└── global.json                             # .NET SDK version (10.0.0)
 ```
 
 ## Key Components
@@ -149,7 +149,7 @@ dotnet pack Source/SaturdayMP.XPlugins.iOS.BEMCheckBox/SaturdayMP.XPlugins.iOS.B
 
 **Build steps:**
 1. Checkout with full Git history (required for GitVersion)
-2. Install .NET 9.0
+2. Install .NET 10.0
 3. Restore workloads
 4. Install GitVersion (6.3.0)
 5. Determine version
@@ -280,7 +280,7 @@ To actually run the app, you must use an IDE (Visual Studio for Mac, Visual Stud
 
 **Requirements:**
 - macOS with Xcode installed
-- .NET 9.0 SDK
+- .NET 10.0 SDK
 - iOS Simulator available (for running)
 - IDE required for running (command-line build only)
 
@@ -290,7 +290,7 @@ To actually run the app, you must use an IDE (Visual Studio for Mac, Visual Stud
 
 - **macOS required** for building (iOS SDK dependency)
 - **Xcode** must be installed (iOS development tools)
-- **.NET 9.0 SDK** required (pinned in global.json:1)
+- **.NET 10.0 SDK** required (pinned in global.json:1)
 - **iOS 18.0+** minimum target
 
 ### Binding Limitations
@@ -306,7 +306,7 @@ To actually run the app, you must use an IDE (Visual Studio for Mac, Visual Stud
 - Main DLL only (not ExampleClient)
 - LICENSE.txt
 - README.md (referenced, not embedded)
-- Target framework: net9.0-ios18.0
+- Target framework: net10.0-ios (minimum iOS 18.0)
 
 ## Testing Strategy
 
@@ -432,7 +432,7 @@ To actually run the app, you must use an IDE (Visual Studio for Mac, Visual Stud
 
 - **Debug**: Includes ExampleClient, used for testing
 - **Release**: Library only, creates NuGet package
-- **Target Framework**: net9.0-ios18.0
+- **Target Framework**: net10.0-ios (minimum iOS 18.0)
 - **Package ID**: SaturdayMP.XPlugins.iOS.BEMCheckBox
 - **License**: MIT
 

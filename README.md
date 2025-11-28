@@ -95,7 +95,7 @@ Building and running iOS applications from the command line requires an IDE. The
 # Version Mapping
 Below is the mapping of the BEMCheckBox version used in the XPlugin wrapper version along with the Xamarin/.NET version.
 
-The .NET version lists the minimum .NET and iOS versions required.  For example, `net9.0-ios18.0` means the XPlugin will work with .NET 9.0 and iOS 18.0 or higher (e.g. it will work with .NET 9, .NET 10, .NET 11, and iOS 18, iOS 19, iOS 20).
+The .NET version lists the minimum .NET and iOS versions required.  For example, `net10.0-ios` with minimum iOS 18.0 means the XPlugin will work with .NET 10.0 and iOS 18.0 or higher (e.g. it will work with .NET 10, .NET 11, .NET 12, and iOS 18, iOS 19, iOS 20).
 
 Starting with version 8, the XPlugin version will match the .NET release it is targeting.
 
