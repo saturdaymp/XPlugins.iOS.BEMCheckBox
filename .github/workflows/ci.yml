@@ -23,6 +23,10 @@ jobs:
         with:
           fetch-depth: 0 # Required for Calculate Version step (e.g. GitVersion)
 
+      # Xcode 26.1 is required by .NET 10.  The current default on macOS-26 is 26.0.
+      - name: Select Xcode 26.1
+        run: sudo xcode-select -s /Applications/Xcode_26.1.app/Contents/Developer
+
       - name: Install .NET 10.0
         uses: actions/setup-dotnet@v5
         with:
