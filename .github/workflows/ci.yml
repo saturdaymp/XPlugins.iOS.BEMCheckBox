@@ -25,7 +25,11 @@ jobs:
 
       # Xcode 26.1 is required by .NET 10. The default on macOS-26 is 26.0.
       - name: Select Xcode 26.1
-        run: sudo xcode-select -s /Applications/Xcode_26.1.app/Contents/Developer
+        run: |
+          xcode-select --print-path
+          sudo xcode-select -s /Applications/Xcode_26.1.app
+          xcode-select --print-path
+          xcodebuild -version
 
       - name: Install .NET 10.0
         uses: actions/setup-dotnet@v5
