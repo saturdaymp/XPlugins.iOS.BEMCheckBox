@@ -95,12 +95,13 @@ Building and running iOS applications from the command line requires an IDE. The
 # Version Mapping
 Below is the mapping of the BEMCheckBox version used in the XPlugin wrapper version along with the Xamarin/.NET version.
 
-The .NET version lists the minimum .NET and iOS versions required.  For example, `net8.0-ios18.0` means the XPlugin will work with .NET 8.0 and iOS 18.0 or higher (e.g. it will work with .NET 8, .NET 9, .NET 10, and iOS 18, iOS 26).
+The .NET version lists the minimum .NET and iOS versions required.  For example, `net9.0-ios18.0` means the XPlugin will work with .NET 9.0 and iOS 18.0 or higher (e.g. it will work with .NET 9, .NET 10, .NET 11, and iOS 18, iOS 19, iOS 20).
 
 Starting with version 8, the XPlugin version will match the .NET release it is targeting.
 
 |                                                                            XPlugin |                                                           BEMCheckBox | Frameworks/Minimum Version |
 |-----------------------------------------------------------------------------------:|----------------------------------------------------------------------:|---------------------------:|
+| [9.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/9.0.0) | [2.2.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.2.0) |        .NET/net9.0-ios18.0 |
 | [8.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/8.0.0) | [2.2.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.2.0) |        .NET/net8.0-ios18.0 |
 | [3.1.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.1.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) |        .NET/net6.0-ios12.0 |
 | [3.0.1](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.0.1) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) |        .NET/net6.0-ios12.0 |
