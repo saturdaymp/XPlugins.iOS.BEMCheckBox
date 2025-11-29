@@ -23,6 +23,12 @@ jobs:
         with:
           fetch-depth: 0 # Required for Calculate Version step (e.g. GitVersion)
 
+      # Select Xcode 26.1 before workload restore, as the iOS SDK workload requires it
+      # Also use the full path instead of the symlink as using the causes the error:
+      #   xcrun: error: unable to find utility "actool", not a developer tool or in PATH
+      - name: Select Xcode 26.1
+        run: sudo xcode-select -s /Applications/Xcode_26.1.1.app
+
       - name: Install Workloads
         run: dotnet workload restore
 
