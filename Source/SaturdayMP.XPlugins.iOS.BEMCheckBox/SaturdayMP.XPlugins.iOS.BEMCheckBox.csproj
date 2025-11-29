@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net9.0-ios18.0</TargetFramework>
+    <TargetFramework>net10.0-ios</TargetFramework>
+    <SupportedOSPlatformVersion>18.0</SupportedOSPlatformVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
@@ -13,7 +14,7 @@
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox</RepositoryUrl>
-    <PackageTags>net9.0 net9.0-ios ios ios-binding bemcheckbox checkbox saturdaymp</PackageTags>
+    <PackageTags>net10.0 net10.0-ios ios ios-binding bemcheckbox checkbox saturdaymp</PackageTags>
     <Company>Saturday Morning Productions Inc.</Company>
     <Product>XPlugins.iOS.BEMCheckBox</Product>
   </PropertyGroup>
