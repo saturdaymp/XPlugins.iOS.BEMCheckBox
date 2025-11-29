@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     name: Build and Test
-    runs-on: macos-15
+    runs-on: macos-26
     outputs:
       version: ${{ steps.gitversion.outputs.semVer }}
     defaults:
@@ -23,10 +23,11 @@ jobs:
         with:
           fetch-depth: 0 # Required for Calculate Version step (e.g. GitVersion)
 
-      - name: Install .NET 9.0
-        uses: actions/setup-dotnet@v5
-        with:
-          dotnet-version: 9.0
+      # Select Xcode 26.1 before workload restore, as the iOS SDK workload requires it
+      # Also use the full path instead of the symlink as using the causes the error:
+      #   xcrun: error: unable to find utility "actool", not a developer tool or in PATH
+      - name: Select Xcode 26.1
+        run: sudo xcode-select -s /Applications/Xcode_26.1.1.app
 
       - name: Install Workloads
         run: dotnet workload restore
@@ -50,7 +51,7 @@ jobs:
       # of the Example Client because it takes a long time and we don't publish it.
       - name: Debug Build of Solution to Smoke Test Example Client
         run: dotnet build -c Debug
-
+        
       - name: Create NuGet Package
         run: dotnet pack SaturdayMP.XPlugins.iOS.BEMCheckBox/SaturdayMP.XPlugins.iOS.BEMCheckBox.csproj -c Release
 
@@ -73,10 +74,10 @@ jobs:
       id-token: write # Required for Trusted Publishing (OIDC token generation)
 
     steps:
-      - name: Install .NET 9.0
+      - name: Install .NET 10.0
         uses: actions/setup-dotnet@v5
         with:
-          dotnet-version: 9.0
+          dotnet-version: 10.0
 
       - name: Download NuGet Package Artifact
         uses: actions/download-artifact@v4
