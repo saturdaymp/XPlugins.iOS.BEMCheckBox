@@ -99,17 +99,18 @@ The .NET version lists the minimum .NET and iOS versions required.  For example,
 
 Starting with version 8, the XPlugin version will match the .NET release it is targeting.
 
-|                                                                            XPlugin |                                                           BEMCheckBox | Frameworks/Minimum Version |
-|-----------------------------------------------------------------------------------:|----------------------------------------------------------------------:|---------------------------:|
-| [9.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/9.0.0) | [2.2.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.2.0) |        .NET/net9.0-ios18.0 |
-| [8.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/8.0.0) | [2.2.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.2.0) |        .NET/net8.0-ios18.0 |
-| [3.1.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.1.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) |        .NET/net6.0-ios12.0 |
-| [3.0.1](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.0.1) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) |        .NET/net6.0-ios12.0 |
-| [3.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.0.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) |        .NET/net6.0-ios16.1 |
-| [2.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/2.0.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) |   Xamarin.iOS/xamarinios10 |
-| [1.4.3](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.3) | [1.4.1](https://github.com/saturdaymp/BEMCheckBox/releases/tag/1.4.1) |   Xamarin.iOS/xamarinios10 |
-| [1.4.2](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.2) | [1.4.1](https://github.com/saturdaymp/BEMCheckBox/releases/tag/1.4.1) |   Xamarin.iOS/xamarinios10 |
-| [1.4.1](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.1) | [1.4.1](https://github.com/saturdaymp/BEMCheckBox/releases/tag/1.4.1) |   Xamarin.iOS/xamarinios10 |
+|                                                                              XPlugin |                                                           BEMCheckBox |    Target Framework |
+|-------------------------------------------------------------------------------------:|----------------------------------------------------------------------:|--------------------:|
+| [10.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/10.0.0) | [2.2.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.2.0) | net10.0-ios26.0 |
+|   [9.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/9.0.0) | [2.2.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.2.0) |  net9.0-ios18.0 |
+|   [8.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/8.0.0) | [2.2.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.2.0) |  net8.0-ios18.0 |
+|   [3.1.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.1.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) |  net6.0-ios12.0 |
+|   [3.0.1](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.0.1) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) |  net6.0-ios12.0 |
+|   [3.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/3.0.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) |  net6.0-ios16.1 |
+|   [2.0.0](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/2.0.0) | [2.0.0](https://github.com/saturdaymp/BEMCheckBox/releases/tag/2.0.0) |    xamarinios10 |
+|   [1.4.3](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.3) | [1.4.1](https://github.com/saturdaymp/BEMCheckBox/releases/tag/1.4.1) |    xamarinios10 |
+|   [1.4.2](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.2) | [1.4.1](https://github.com/saturdaymp/BEMCheckBox/releases/tag/1.4.1) |    xamarinios10 |
+|   [1.4.1](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/releases/tag/1.4.1) | [1.4.1](https://github.com/saturdaymp/BEMCheckBox/releases/tag/1.4.1) |    xamarinios10 |
 
 If you spot any issues with the versioning table or a version combination you need is not listed, even unsupported versions, let me know by opening an [issue](https://github.com/saturdaymp/XPlugins.iOS.BEMCheckBox/issues).
 
